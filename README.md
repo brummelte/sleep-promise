@@ -36,10 +36,10 @@ let trace = value => {
 sleep(2000)
     .then(() => "hello")
     .then(trace)
-    .then(sleep.delay(1000))
+    .then(sleep(1000))
     .then(value => value + " world")
     .then(trace)
-    .then(sleep.delay(500))
+    .then(sleep(500))
     .then(value => value + "!")
     .then(trace)
 
