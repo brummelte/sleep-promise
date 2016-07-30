@@ -3,12 +3,9 @@
 
 ## Installation
 ### node.js
-    npm install --save sleep-promise
+    npm install sleep-promise
 
-### jspm
-    jspm install npm:sleep-promise
-
-## Usage ES2016
+## Usage async / await
 ```javascript
 import sleep from 'sleep-promise';
 
@@ -18,20 +15,38 @@ import sleep from 'sleep-promise';
 })();
 ```
 
-## Usage ES2015
-```javascript
-import sleep from 'sleep-promise';
-
-sleep(2000).then(() => {
-    console.log('2 seconds later …');
-});
-```
-
 ## Usage ES5
 ```javascript
-let sleep = require('sleep-promise');
+var sleep = require('sleep-promise');
 
 sleep(2000).then(function() {
     console.log('2 seconds later …')
 });
+```
+
+## Usage in a promise chain
+```javascript
+import sleep from 'sleep-promise';
+
+let trace = value => {
+    console.log(value);
+    return value;
+}
+
+sleep(2000)
+    .then(() => "hello")
+    .then(trace)
+    .then(sleep.delay(1000))
+    .then(value => value + " world")
+    .then(trace)
+    .then(sleep.delay(500))
+    .then(value => value + "!")
+    .then(trace)
+
+// [2 seconds sleep]
+// hello
+// [1 second sleep]
+// hello world
+// [500 ms sleep]
+// hello world!
 ```
