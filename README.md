@@ -35,7 +35,10 @@ sleep(2000).then(function() {
     console.log('2 seconds later …')
 });
 ```
-# Helper to delay a promise chain
+
+**Helper to delay a promise chain**
+
+to delay a promise chain pass `sleep.delay(timeout)` to the `then`
 
 ## Usage ES2015
 ```javascript
