@@ -35,3 +35,21 @@ sleep(2000).then(function() {
     console.log('2 seconds later …')
 });
 ```
+# Helper to delay a promise chain
+
+## Usage ES2015
+```javascript
+import sleep from 'sleep-promise';
+
+let trace = x => { console.log(x); return x; }
+
+sleep(2000)
+    .then(() => "hello")
+    .then(trace)
+    .then(sleep.delay(1000))
+    .then(x => x+" world")
+    .then(trace)
+    .then(sleep.delay(500))
+    .then(x => x+"!")
+    .then(trace)
+```
