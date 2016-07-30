@@ -1,21 +1,21 @@
 {
-    "name": "sleep-promise",
-    "version": "1.0.1",
-    "description": "Resolves a promise after a specified delay.",
-    "main": "lib/index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/brummelte/sleep-promise"
-    },
-    "keywords": [
-        "sleep",
-        "promise",
-        "delay"
-    ],
-    "author": "Jan Brummelte <sleep-promise@jan-brummelte.de> (http://jan-brummelte.de)",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/brummelte/sleep-promise/issues"
-    },
-    "homepage": "https://github.com/brummelte/sleep-promise"
+  "name": "sleep-promise",
+  "version": "2.0.0",
+  "description": "Resolves a promise after a specified delay.",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brummelte/sleep-promise"
+  },
+  "keywords": [
+    "sleep",
+    "promise",
+    "delay"
+  ],
+  "author": "Jan Brummelte <sleep-promise@jan-brummelte.de> (http://jan-brummelte.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brummelte/sleep-promise/issues"
+  },
+  "homepage": "https://github.com/brummelte/sleep-promise"
 }
