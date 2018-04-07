@@ -3,6 +3,9 @@
   "version": "2.0.0",
   "description": "Resolves a promise after a specified delay.",
   "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/brummelte/sleep-promise"
@@ -17,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/brummelte/sleep-promise/issues"
   },
-  "homepage": "https://github.com/brummelte/sleep-promise"
+  "homepage": "https://github.com/brummelte/sleep-promise",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  }
 }
