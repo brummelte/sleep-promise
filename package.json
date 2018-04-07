@@ -1,6 +1,6 @@
 {
   "name": "sleep-promise",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Resolves a promise after a specified delay.",
   "main": "lib/index.js",
   "scripts": {
