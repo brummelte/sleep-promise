@@ -3,6 +3,7 @@
   "version": "3.0.0",
   "description": "Resolves a promise after a specified delay.",
   "main": "lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "test": "jest"
   },
