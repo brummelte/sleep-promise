@@ -1,6 +1,6 @@
 {
   "name": "sleep-promise",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "Resolves a promise after a specified delay.",
   "main": "build/bundle.js",
   "module": "build/bundle.mjs",
