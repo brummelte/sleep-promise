@@ -4,6 +4,7 @@
   "description": "Resolves a promise after a specified delay.",
   "main": "build/bundle.js",
   "module": "build/bundle.mjs",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "test": "jest",
     "build": "rimraf build && rollup --config",
