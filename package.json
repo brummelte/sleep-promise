@@ -2,9 +2,13 @@
   "name": "sleep-promise",
   "version": "3.0.0",
   "description": "Resolves a promise after a specified delay.",
-  "main": "lib/index.js",
+  "main": "build/bundle.js",
+  "module": "build/bundle.mjs",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "rimraf build && rollup --config",
+    "prepublishOnly": "npm run test",
+    "prepack": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -22,6 +26,15 @@
   },
   "homepage": "https://github.com/brummelte/sleep-promise",
   "devDependencies": {
-    "jest": "^22.4.3"
+    "@babel/cli": "^7.0.0-beta.44",
+    "@babel/core": "^7.0.0-beta.44",
+    "@babel/preset-env": "^7.0.0-beta.44",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^22.4.3",
+    "jest": "^22.4.3",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^4.0.0-beta.3",
+    "rollup-plugin-node-resolve": "^3.3.0"
   }
 }
