@@ -2,9 +2,9 @@
   "name": "sleep-promise",
   "version": "4.1.0",
   "description": "Resolves a promise after a specified delay.",
-  "main": "build/bundle.js",
-  "module": "build/bundle.mjs",
   "types": "./lib/index.d.ts",
+  "main": "build/cjs.js",
+  "module": "build/esm.mjs",
   "scripts": {
     "test": "jest",
     "build": "rimraf build && rollup --config",
