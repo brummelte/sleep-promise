@@ -4,7 +4,7 @@
   "description": "Resolves a promise after a specified delay.",
   "main": "build/cjs.js",
   "module": "build/esm.mjs",
-  "types": "./types/cjs.d.ts",
+  "types": "build/cjs.d.ts",
   "scripts": {
     "test": "jest",
     "build": "npm run build:clean && npm run build:bundle && npm run build:types",
