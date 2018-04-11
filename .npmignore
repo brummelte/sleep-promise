@@ -1,4 +1,3 @@
 *
-!lib/index.d.ts
 !build/*
 !yarn.lock

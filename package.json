@@ -2,12 +2,15 @@
   "name": "sleep-promise",
   "version": "4.1.0",
   "description": "Resolves a promise after a specified delay.",
-  "types": "./lib/index.d.ts",
   "main": "build/cjs.js",
   "module": "build/esm.mjs",
+  "types": "./types/cjs.d.ts",
   "scripts": {
     "test": "jest",
-    "build": "rimraf build && rollup --config",
+    "build": "npm run build:clean && npm run build:bundle && npm run build:types",
+    "build:clean": "rimraf build",
+    "build:bundle": "rollup --config",
+    "build:types": "copyfiles -u 1 types/* build",
     "prepublishOnly": "npm run test && npm run build"
   },
   "repository": {
@@ -31,6 +34,7 @@
     "@babel/preset-env": "^7.0.0-beta.44",
     "babel-core": "^7.0.0-0",
     "babel-jest": "^22.4.3",
+    "copyfiles": "^2.0.0",
     "jest": "^22.4.3",
     "rimraf": "^2.6.2",
     "rollup": "^0.57.1",
