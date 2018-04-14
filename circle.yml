@@ -1,0 +1,90 @@
+version: 2
+
+references:
+    container: &container
+        docker:
+            - image: circleci/node:9
+        working_directory: ~/project
+
+    repository_cache_key: &repository_cache_key
+        v1-repo-{{ .Branch }}-{{ .Revision }}
+
+    restore_repository: &restore_repository
+        restore_cache:
+            keys:
+                - *repository_cache_key
+                - v1-repo-{{ .Branch }}
+                - v1-repo
+
+    dependencies_cache_key: &dependencies_cache_key
+        v1-dependencies-{{ arch }}-{{ checksum "package.json" }}-{{ checksum "yarn.lock" }}
+
+    restore_dependencies: &restore_dependencies
+        restore_cache:
+            keys:
+                - *dependencies_cache_key
+                - v1-dependencies-{{ arch }}-{{ checksum "package.json" }}
+                - v1-dependencies-{{ arch }}
+
+jobs:
+    checkout:
+        <<: *container
+        steps:
+            - *restore_repository
+            - checkout
+            - save_cache:
+                key: *repository_cache_key
+                paths:
+                    - .
+
+    dependencies:
+        <<: *container
+        steps:
+            - *restore_repository
+            - *restore_dependencies
+            - run: yarn install
+            - save_cache:
+                key: *dependencies_cache_key
+                paths:
+                    - node_modules
+
+    test:
+        <<: *container
+        steps:
+            - *restore_repository
+            - *restore_dependencies
+            - run:
+                name: "Test"
+                command: yarn test --ci --coverage --testResultsProcessor="jest-junit"
+                environment:
+                    JEST_JUNIT_OUTPUT: reports/junit/js-test-results.xml
+            - store_test_results:
+                path: reports/junit
+            - store_artifacts:
+                path: coverage
+                destination: coverage
+            - store_artifacts:
+                path: reports/junit
+                destination: junit
+
+    test_build:
+        <<: *container
+        steps:
+            - *restore_repository
+            - *restore_dependencies
+            - run: yarn run build
+
+workflows:
+    version: 2
+    default:
+        jobs:
+            - checkout
+            - dependencies:
+                requires:
+                    - checkout
+            - test:
+                requires:
+                    - dependencies
+            - test_build:
+                requires:
+                    - dependencies
