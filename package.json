@@ -1,45 +1,51 @@
 {
-  "name": "sleep-promise",
-  "version": "6.0.0",
-  "description": "Resolves a promise after a specified delay.",
-  "main": "build/cjs.js",
-  "module": "build/esm.mjs",
-  "types": "build/cjs.d.ts",
-  "scripts": {
-    "test": "jest",
-    "build": "npm run build:clean && npm run build:bundle && npm run build:types",
-    "build:clean": "rimraf build",
-    "build:bundle": "rollup --config",
-    "build:types": "copyfiles -u 1 types/* build",
-    "prepublishOnly": "npm run test && npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/brummelte/sleep-promise"
-  },
-  "keywords": [
-    "sleep",
-    "promise",
-    "delay"
-  ],
-  "author": "Jan Brummelte <sleep-promise@jan-brummelte.de> (http://jan-brummelte.de)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/brummelte/sleep-promise/issues"
-  },
-  "homepage": "https://github.com/brummelte/sleep-promise",
-  "devDependencies": {
-    "@babel/cli": "^7.0.0-beta.44",
-    "@babel/core": "^7.0.0-beta.44",
-    "@babel/preset-env": "^7.0.0-beta.44",
-    "babel-core": "^7.0.0-0",
-    "babel-jest": "^22.4.3",
-    "copyfiles": "^2.0.0",
-    "jest": "^22.4.3",
-    "jest-junit": "^3.6.0",
-    "rimraf": "^2.6.2",
-    "rollup": "^0.57.1",
-    "rollup-plugin-babel": "^4.0.0-beta.3",
-    "rollup-plugin-node-resolve": "^3.3.0"
-  }
+    "name": "sleep-promise",
+    "version": "6.0.0",
+    "description": "Resolves a promise after a specified delay.",
+    "main": "build/cjs.js",
+    "module": "build/esm.mjs",
+    "types": "build/cjs.d.ts",
+    "scripts": {
+        "test": "npm run test:code && npm run test:eslint && npm run test:formatting",
+        "test:code": "jest",
+        "test:eslint": "eslint \"lib/**/*.js\"",
+        "test:formatting": "prettier-eslint --list-different \"lib/**/*.js\"",
+        "build": "npm run build:clean && npm run build:bundle && npm run build:types",
+        "build:clean": "rimraf build",
+        "build:bundle": "rollup --config",
+        "build:types": "copyfiles -u 1 types/* build",
+        "prepublishOnly": "npm run test && npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/brummelte/sleep-promise"
+    },
+    "keywords": [
+        "sleep",
+        "promise",
+        "delay"
+    ],
+    "author": "Jan Brummelte <sleep-promise@jan-brummelte.de> (http://jan-brummelte.de)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/brummelte/sleep-promise/issues"
+    },
+    "homepage": "https://github.com/brummelte/sleep-promise",
+    "devDependencies": {
+        "@babel/cli": "^7.0.0-beta.44",
+        "@babel/core": "^7.0.0-beta.44",
+        "@babel/preset-env": "^7.0.0-beta.44",
+        "@brummelte/eslint-config": "^3.0.0",
+        "babel-core": "^7.0.0-0",
+        "babel-jest": "^22.4.3",
+        "copyfiles": "^2.0.0",
+        "eslint": "^4.19.1",
+        "jest": "^22.4.3",
+        "jest-junit": "^3.6.0",
+        "prettier-eslint-cli": "^4.7.1",
+        "rimraf": "^2.6.2",
+        "rollup": "^0.57.1",
+        "rollup-plugin-babel": "^4.0.0-beta.3",
+        "rollup-plugin-node-resolve": "^3.3.0"
+    }
 }
