@@ -65,12 +65,17 @@ import sleep from 'sleep-promise';
 
 const clock = sinon.useFakeTimers();
 
-async(() => {
-    await sleep(2000);
+(async () => {
+    // 2 seconds faked by sinon
+    const sleepPromise = sleep(2000);
     clock.tick(2000);
-    console.log('instant, 2 seconds faked by sinon');
+    await sleepPromise;
+    console.log('instant');
 
-    await sleep(2000, { useCachedSetTimeout: true });
-    console.log('2 seconds later, cached global setTimeout before sinon replaced it');
+    // Caches global setTimeout before sinon replaced it
+    const sleepPromise2 = sleep(2000, { useCachedSetTimeout: true });
+    clock.tick(2000);
+    await sleepPromise2;
+    console.log('2 seconds later');
 })();
 ```
