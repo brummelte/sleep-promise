@@ -56,3 +56,21 @@ sleep(2000)
 // [500 ms sleep]
 // hello world!
 ```
+
+## Usage in a test file that mocks setTimeout
+
+```javascript
+import sinon from 'sinon';
+import sleep from 'sleep-promise';
+
+const clock = sinon.useFakeTimers();
+
+async(() => {
+    await sleep(2000);
+    clock.tick(2000);
+    console.log('instant, 2 seconds faked by sinon');
+
+    await sleep(2000, { useCachedSetTimeout: true });
+    console.log('2 seconds later, cached global setTimeout before sinon replaced it');
+})();
+```
