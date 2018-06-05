@@ -1,4 +1,4 @@
-import { SleepOptions } from './options';
+import { SleepOptions } from './shared';
 
 declare function sleep<T = any>(
     timeout: number,
