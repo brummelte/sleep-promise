@@ -1,4 +1,4 @@
-import { SleepOptions } from './options';
+import { SleepOptions } from './shared';
 
 declare namespace sleep {
     // Allow usage of a CJS module
