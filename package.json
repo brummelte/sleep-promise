@@ -9,7 +9,7 @@
         "test": "npm run test:code && npm run test:eslint && npm run test:formatting",
         "test:code": "jest",
         "test:eslint": "eslint \"lib/**/*.js\"",
-        "test:formatting": "prettier-eslint --list-different \"lib/**/*.js\"",
+        "test:formatting": "prettier-eslint --list-different \"lib/**/*.js\" \"types/**/*.d.ts\"",
         "build": "npm run build:clean && npm run build:bundle && npm run build:types",
         "build:clean": "rimraf build",
         "build:bundle": "rollup --config",
