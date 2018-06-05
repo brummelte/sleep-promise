@@ -1,3 +1,3 @@
 export interface SleepOptions {
-  useCachedSetTimeout?: boolean;
+    useCachedSetTimeout?: boolean;
 }
