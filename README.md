@@ -82,7 +82,7 @@ const clock = sinon.useFakeTimers();
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE.md)
 
 [license-image]: https://img.shields.io/github/license/brummelte/sleep-promise.svg
 [license-url]: https://github.com/brummelte/sleep-promise/blob/master/LICENSE.md
