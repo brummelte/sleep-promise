@@ -1,6 +1,7 @@
 # sleep-promise
 
 [![CircleCI](https://circleci.com/gh/brummelte/sleep-promise.svg?style=svg)](https://circleci.com/gh/brummelte/sleep-promise)
+[![Coverage Status](https://coveralls.io/repos/github/brummelte/sleep-promise/badge.svg?branch=master)](https://coveralls.io/github/brummelte/sleep-promise?branch=master)
 
 _sleep-promise_ resolves a promise after a specified delay.
 

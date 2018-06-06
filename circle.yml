@@ -53,7 +53,7 @@ jobs:
         steps:
             - *restore_repository
             - *restore_dependencies
-            - run: yarn run test:code --ci --coverage
+            - run: yarn run test:code --ci --coverage && cat ./coverage/lcov.info | yarn run coveralls
             - store_test_results:
                 path: coverage/junit
             - store_artifacts:
