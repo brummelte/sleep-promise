@@ -1,5 +1,6 @@
 {
     "name": "sleep-promise",
+    "author": "Jan Brummelte <sleep-promise@jan-brummelte.de> (https://jan-brummelte.de)",
     "version": "7.1.0",
     "description": "Resolves a promise after a specified delay.",
     "main": "build/cjs.js",
@@ -25,27 +26,26 @@
         "promise",
         "delay"
     ],
-    "author": "Jan Brummelte <sleep-promise@jan-brummelte.de> (http://jan-brummelte.de)",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/brummelte/sleep-promise/issues"
     },
     "homepage": "https://github.com/brummelte/sleep-promise",
     "devDependencies": {
-        "@babel/cli": "^7.0.0-beta.44",
-        "@babel/core": "^7.0.0-beta.44",
-        "@babel/preset-env": "^7.0.0-beta.44",
+        "@babel/cli": "^7.0.0-beta.49",
+        "@babel/core": "^7.0.0-beta.49",
+        "@babel/preset-env": "^7.0.0-beta.49",
         "@brummelte/eslint-config": "^3.0.0",
         "babel-core": "^7.0.0-0",
-        "babel-jest": "^22.4.3",
+        "babel-jest": "^23.0.1",
         "copyfiles": "^2.0.0",
         "eslint": "^4.19.1",
-        "jest": "^22.4.3",
-        "jest-junit": "^3.6.0",
+        "jest": "^23.1.0",
+        "jest-junit": "^5.0.0",
         "prettier-eslint-cli": "^4.7.1",
         "rimraf": "^2.6.2",
-        "rollup": "^0.57.1",
-        "rollup-plugin-babel": "^4.0.0-beta.3",
+        "rollup": "^0.60.0",
+        "rollup-plugin-babel": "^4.0.0-beta.4",
         "rollup-plugin-node-resolve": "^3.3.0"
     }
 }
