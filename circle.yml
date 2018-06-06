@@ -48,26 +48,48 @@ jobs:
                 paths:
                     - node_modules
 
-    test:
+    test:code:
         <<: *container
         steps:
             - *restore_repository
             - *restore_dependencies
-            - run:
-                name: "Test"
-                command: yarn test --ci --coverage --testResultsProcessor="jest-junit"
-                environment:
-                    JEST_JUNIT_OUTPUT: reports/junit/js-test-results.xml
+            - run: yarn run test:code --ci --coverage
             - store_test_results:
-                path: reports/junit
+                path: coverage/junit
             - store_artifacts:
                 path: coverage
                 destination: coverage
             - store_artifacts:
-                path: reports/junit
+                path: coverage/junit
                 destination: junit
 
-    test_build:
+    test:eslint:
+        <<: *container
+        steps:
+            - *restore_repository
+            - *restore_dependencies
+            - run: yarn run test:eslint --format junit -o coverage/junit/js-lint-results.xml
+            - store_test_results:
+                path: coverage/junit
+            - store_artifacts:
+                path: coverage/junit
+                destination: junit
+
+    test:formatting:
+        <<: *container
+        steps:
+            - *restore_repository
+            - *restore_dependencies
+            - run: yarn run test:formatting
+
+    test:typescript:
+        <<: *container
+        steps:
+            - *restore_repository
+            - *restore_dependencies
+            - run: yarn run test:typescript
+
+    test:build:
         <<: *container
         steps:
             - *restore_repository
@@ -82,9 +104,18 @@ workflows:
             - dependencies:
                 requires:
                     - checkout
-            - test:
+            - test:code:
                 requires:
                     - dependencies
-            - test_build:
+            - test:eslint:
+                requires:
+                    - dependencies
+            - test:formatting:
+                requires:
+                    - dependencies
+            - test:typescript:
+                requires:
+                    - dependencies
+            - test:build:
                 requires:
                     - dependencies

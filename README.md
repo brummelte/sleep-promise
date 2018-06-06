@@ -1,5 +1,7 @@
 # sleep-promise
 
+[![CircleCI](https://circleci.com/gh/brummelte/sleep-promise.svg?style=svg)](https://circleci.com/gh/brummelte/sleep-promise)
+
 _sleep-promise_ resolves a promise after a specified delay.
 
 ## Installation
