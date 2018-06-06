@@ -1,7 +1,7 @@
 {
     "name": "sleep-promise",
     "author": "Jan Brummelte <sleep-promise@jan-brummelte.de> (https://jan-brummelte.de)",
-    "version": "7.1.0",
+    "version": "8.0.0",
     "description": "Resolves a promise after a specified delay.",
     "main": "build/cjs.js",
     "module": "build/esm.mjs",
