@@ -7,10 +7,11 @@
     "module": "build/esm.mjs",
     "types": "build/cjs.d.ts",
     "scripts": {
-        "test": "npm run test:code && npm run test:eslint && npm run test:formatting",
+        "test": "npm run test:code && npm run test:eslint && npm run test:formatting && npm run test:typescript",
         "test:code": "jest",
         "test:eslint": "eslint \"lib/**/*.js\"",
         "test:formatting": "prettier-eslint --list-different \"lib/**/*.js\" \"types/**/*.d.ts\"",
+        "test:typescript": "tsc",
         "build": "npm run build:clean && npm run build:bundle && npm run build:types",
         "build:clean": "rimraf build",
         "build:bundle": "rollup --config",
@@ -46,6 +47,7 @@
         "rimraf": "^2.6.2",
         "rollup": "^0.60.0",
         "rollup-plugin-babel": "^4.0.0-beta.4",
-        "rollup-plugin-node-resolve": "^3.3.0"
+        "rollup-plugin-node-resolve": "^3.3.0",
+        "typescript": "^2.9.1"
     }
 }
