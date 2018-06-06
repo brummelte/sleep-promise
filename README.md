@@ -1,7 +1,4 @@
-# sleep-promise
-
-[![CircleCI](https://circleci.com/gh/brummelte/sleep-promise.svg?style=svg)](https://circleci.com/gh/brummelte/sleep-promise)
-[![Coverage Status](https://coveralls.io/repos/github/brummelte/sleep-promise/badge.svg?branch=master)](https://coveralls.io/github/brummelte/sleep-promise?branch=master)
+# sleep-promise [![License][license-image]][license-url] [![NPM version][npm-image]][npm-url] [![NPM downloads][npm-downloads-image]][npm-downloads-url] [![Build][build-image]][build-url] [![Coverage][coverage-image]][coverage-url]
 
 _sleep-promise_ resolves a promise after a specified delay.
 
@@ -82,3 +79,18 @@ const clock = sinon.useFakeTimers();
     console.log('2 seconds later');
 })();
 ```
+
+## License
+
+[MIT](LICENSE)
+
+[license-image]: https://img.shields.io/github/license/brummelte/sleep-promise.svg
+[license-url]: https://github.com/brummelte/sleep-promise/blob/master/LICENSE.md
+[npm-image]: https://img.shields.io/npm/v/sleep-promise.svg
+[npm-url]: https://www.npmjs.com/package/sleep-promise
+[npm-downloads-image]: https://img.shields.io/npm/dm/sleep-promise.svg
+[npm-downloads-url]: https://www.npmjs.com/package/sleep-promise
+[build-image]: https://img.shields.io/circleci/project/github/brummelte/sleep-promise/master.svg
+[build-url]: https://circleci.com/gh/brummelte/sleep-promise
+[coverage-image]: https://img.shields.io/coveralls/github/brummelte/sleep-promise/master.svg
+[coverage-url]: https://coveralls.io/github/brummelte/sleep-promise?branch=master
