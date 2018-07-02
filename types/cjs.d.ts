@@ -1,4 +1,4 @@
-import { SleepOptions } from './shared';
+import { SleepOptions, SleepPromise } from './shared';
 
 declare namespace sleep {
     // Allow usage of a CJS module
@@ -7,6 +7,6 @@ declare namespace sleep {
 declare function sleep<T = any>(
     timeout: number,
     options?: SleepOptions,
-): Promise<T> & ((value: T) => T);
+): SleepPromise<T> & ((value: T) => T);
 
 export = sleep;
