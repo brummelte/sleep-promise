@@ -73,13 +73,6 @@ jobs:
           path: coverage/junit
           destination: junit
 
-  test:formatting:
-    <<: *container
-    steps:
-      - *restore_repository
-      - *restore_dependencies
-      - run: yarn run test:formatting
-
   test:typescript:
     <<: *container
     steps:
@@ -106,9 +99,6 @@ workflows:
           requires:
             - dependencies
       - test:eslint:
-          requires:
-            - dependencies
-      - test:formatting:
           requires:
             - dependencies
       - test:typescript:
