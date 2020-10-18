@@ -3,7 +3,7 @@ version: 2
 references:
   container: &container
     docker:
-      - image: circleci/node:9
+      - image: cimg/node:14.14.0
     working_directory: ~/project
 
   repository_cache_key: &repository_cache_key v1-repo-{{ .Branch }}-{{ .Revision }}
