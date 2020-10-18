@@ -1,0 +1,23 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    ":automergePatch"
+  ],
+  "semanticCommits": "enabled",
+  "rangeStrategy": "bump",
+  "assignees": [
+    "brummelte"
+  ],
+  "packageRules": [
+    {
+      "updateTypes": [
+        "minor"
+      ],
+      "depTypeList": [
+        "devDependencies"
+      ],
+      "automerge": true
+    }
+  ]
+}
