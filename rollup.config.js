@@ -4,7 +4,7 @@ import babel from 'rollup-plugin-babel';
 import minify from 'rollup-plugin-babel-minify';
 
 const rollupConfig = {
-    input: 'lib/index.js',
+    input: 'lib/main.js',
     output: [
         { file: 'build/cjs.js', format: 'cjs' },
         { file: 'build/esm.mjs', format: 'es' },
