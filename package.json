@@ -15,7 +15,7 @@
     "build:clean": "rimraf build",
     "build:bundle": "rollup --config",
     "build:types": "copyfiles -u 1 types/* build",
-    "prepublishOnly": "npm run test && npm run build"
+    "prepublishOnly": "yarn build"
   },
   "repository": {
     "type": "git",
@@ -31,9 +31,6 @@
     "url": "https://github.com/brummelte/sleep-promise/issues"
   },
   "homepage": "https://github.com/brummelte/sleep-promise",
-  "jest-junit": {
-    "output": "coverage/junit/js-test-results.xml"
-  },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
