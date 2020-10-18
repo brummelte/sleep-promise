@@ -9,7 +9,7 @@
   "scripts": {
     "test": "npm run test:code && npm run test:eslint && npm run test:typescript",
     "test:code": "jest",
-    "test:eslint": "eslint \"lib/**/*.js\"",
+    "test:eslint": "eslint .",
     "test:typescript": "tsc",
     "build": "npm run build:clean && npm run build:bundle && npm run build:types",
     "build:clean": "rimraf build",
