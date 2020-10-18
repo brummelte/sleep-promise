@@ -6,7 +6,7 @@ import { terser } from 'rollup-plugin-terser';
 const rollupConfig = {
     input: 'lib/main.js',
     output: [
-        { file: 'build/cjs.js', format: 'cjs' },
+        { exports: 'default', file: 'build/cjs.js', format: 'cjs' },
         { file: 'build/esm.mjs', format: 'es' },
     ],
     plugins: [resolve(), babel({ exclude: 'node_modules/**' }), terser()],
