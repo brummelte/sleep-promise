@@ -1,121 +1,119 @@
 version: 2
 
 references:
-    container: &container
-        docker:
-            - image: circleci/node:9
-        working_directory: ~/project
+  container: &container
+    docker:
+      - image: circleci/node:9
+    working_directory: ~/project
 
-    repository_cache_key: &repository_cache_key
-        v1-repo-{{ .Branch }}-{{ .Revision }}
+  repository_cache_key: &repository_cache_key v1-repo-{{ .Branch }}-{{ .Revision }}
 
-    restore_repository: &restore_repository
-        restore_cache:
-            keys:
-                - *repository_cache_key
-                - v1-repo-{{ .Branch }}
-                - v1-repo
+  restore_repository: &restore_repository
+    restore_cache:
+      keys:
+        - *repository_cache_key
+        - v1-repo-{{ .Branch }}
+        - v1-repo
 
-    dependencies_cache_key: &dependencies_cache_key
-        v1-dependencies-{{ arch }}-{{ checksum "package.json" }}-{{ checksum "yarn.lock" }}
+  dependencies_cache_key: &dependencies_cache_key v1-dependencies-{{ arch }}-{{ checksum "package.json" }}-{{ checksum "yarn.lock" }}
 
-    restore_dependencies: &restore_dependencies
-        restore_cache:
-            keys:
-                - *dependencies_cache_key
-                - v1-dependencies-{{ arch }}-{{ checksum "package.json" }}
-                - v1-dependencies-{{ arch }}
+  restore_dependencies: &restore_dependencies
+    restore_cache:
+      keys:
+        - *dependencies_cache_key
+        - v1-dependencies-{{ arch }}-{{ checksum "package.json" }}
+        - v1-dependencies-{{ arch }}
 
 jobs:
-    checkout:
-        <<: *container
-        steps:
-            - *restore_repository
-            - checkout
-            - save_cache:
-                key: *repository_cache_key
-                paths:
-                    - .
+  checkout:
+    <<: *container
+    steps:
+      - *restore_repository
+      - checkout
+      - save_cache:
+          key: *repository_cache_key
+          paths:
+            - .
 
-    dependencies:
-        <<: *container
-        steps:
-            - *restore_repository
-            - *restore_dependencies
-            - run: yarn install
-            - save_cache:
-                key: *dependencies_cache_key
-                paths:
-                    - node_modules
+  dependencies:
+    <<: *container
+    steps:
+      - *restore_repository
+      - *restore_dependencies
+      - run: yarn install
+      - save_cache:
+          key: *dependencies_cache_key
+          paths:
+            - node_modules
 
-    test:code:
-        <<: *container
-        steps:
-            - *restore_repository
-            - *restore_dependencies
-            - run: yarn run test:code --ci --coverage && cat ./coverage/lcov.info | yarn run coveralls
-            - store_test_results:
-                path: coverage/junit
-            - store_artifacts:
-                path: coverage
-                destination: coverage
-            - store_artifacts:
-                path: coverage/junit
-                destination: junit
+  test:code:
+    <<: *container
+    steps:
+      - *restore_repository
+      - *restore_dependencies
+      - run: yarn run test:code --ci --coverage && cat ./coverage/lcov.info | yarn run coveralls
+      - store_test_results:
+          path: coverage/junit
+      - store_artifacts:
+          path: coverage
+          destination: coverage
+      - store_artifacts:
+          path: coverage/junit
+          destination: junit
 
-    test:eslint:
-        <<: *container
-        steps:
-            - *restore_repository
-            - *restore_dependencies
-            - run: yarn run test:eslint --format junit -o coverage/junit/js-lint-results.xml
-            - store_test_results:
-                path: coverage/junit
-            - store_artifacts:
-                path: coverage/junit
-                destination: junit
+  test:eslint:
+    <<: *container
+    steps:
+      - *restore_repository
+      - *restore_dependencies
+      - run: yarn run test:eslint --format junit -o coverage/junit/js-lint-results.xml
+      - store_test_results:
+          path: coverage/junit
+      - store_artifacts:
+          path: coverage/junit
+          destination: junit
 
-    test:formatting:
-        <<: *container
-        steps:
-            - *restore_repository
-            - *restore_dependencies
-            - run: yarn run test:formatting
+  test:formatting:
+    <<: *container
+    steps:
+      - *restore_repository
+      - *restore_dependencies
+      - run: yarn run test:formatting
 
-    test:typescript:
-        <<: *container
-        steps:
-            - *restore_repository
-            - *restore_dependencies
-            - run: yarn run test:typescript
+  test:typescript:
+    <<: *container
+    steps:
+      - *restore_repository
+      - *restore_dependencies
+      - run: yarn run test:typescript
 
-    test:build:
-        <<: *container
-        steps:
-            - *restore_repository
-            - *restore_dependencies
-            - run: yarn run build
+  test:build:
+    <<: *container
+    steps:
+      - *restore_repository
+      - *restore_dependencies
+      - run: yarn run build
 
 workflows:
-    version: 2
-    default:
-        jobs:
+  version: 2
+  default:
+    jobs:
+      - checkout
+      - dependencies:
+          requires:
             - checkout
-            - dependencies:
-                requires:
-                    - checkout
-            - test:code:
-                requires:
-                    - dependencies
-            - test:eslint:
-                requires:
-                    - dependencies
-            - test:formatting:
-                requires:
-                    - dependencies
-            - test:typescript:
-                requires:
-                    - dependencies
-            - test:build:
-                requires:
-                    - dependencies
+      - test:code:
+          requires:
+            - dependencies
+      - test:eslint:
+          requires:
+            - dependencies
+      - test:formatting:
+          requires:
+            - dependencies
+      - test:typescript:
+          requires:
+            - dependencies
+      - test:build:
+          requires:
+            - dependencies
