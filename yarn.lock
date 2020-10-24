@@ -1222,9 +1222,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brummelte/eslint-config@npm:^8.3.4":
-  version: 8.3.4
-  resolution: "@brummelte/eslint-config@npm:8.3.4"
+"@brummelte/eslint-config@npm:^8.3.5":
+  version: 8.3.5
+  resolution: "@brummelte/eslint-config@npm:8.3.5"
   dependencies:
     babel-eslint: ^10.1.0
     eslint-config-prettier: ^6.14.0
@@ -1233,7 +1233,7 @@ __metadata:
     eslint-plugin-functional: ^3.1.0
     eslint-plugin-import: 2.22.1
     eslint-plugin-jest: ^24.1.0
-    eslint-plugin-jest-dom: ^3.2.3
+    eslint-plugin-jest-dom: ^3.2.4
     eslint-plugin-jsx-a11y: ^6.3.1
     eslint-plugin-prettier: ^3.1.4
     eslint-plugin-react: ^7.21.5
@@ -1242,7 +1242,7 @@ __metadata:
     prettier: ^2.1.2
   peerDependencies:
     eslint: ">=7.11.0"
-  checksum: bb7acbd2be2683ebe04ef23f8514bdeae94f6e7215e87ca6b6392136c540fe55c2a33b06f07a7b26d8c542ea89561fb47124133ea378d7c06a7382a17206343f
+  checksum: 66df1db984f6cf1aee5884c545629491104df8d0ff9445b6b387d0926338ef574ef362631e116677025e0e576c52f64ad36c28426447d0d1e402590552423f2a
   languageName: node
   linkType: hard
 
@@ -4323,15 +4323,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest-dom@npm:^3.2.3":
-  version: 3.2.3
-  resolution: "eslint-plugin-jest-dom@npm:3.2.3"
+"eslint-plugin-jest-dom@npm:^3.2.4":
+  version: 3.2.4
+  resolution: "eslint-plugin-jest-dom@npm:3.2.4"
   dependencies:
     "@babel/runtime": ^7.9.6
     requireindex: ^1.2.0
   peerDependencies:
     eslint: ">=6.8"
-  checksum: 4339e7f691064945882eea1d8169f0fa366f6a7c55cbac13f80525a291af081332163bf67e3ab4a7a64f44f76fc00877b4aa9f2b6782796a5e8fa6123039f615
+  checksum: b4af33e7cc32f9e74d0a0fa9059c3663913a5aa532f048e3fc3f2a501badc72a48774b5fccd20ff61e3b43c9dc6b13899a1c102d34d7f2f33a7e24ad95ad6c89
   languageName: node
   linkType: hard
 
@@ -10254,7 +10254,7 @@ resolve@^1.18.1:
     "@babel/core": ^7.12.3
     "@babel/plugin-transform-runtime": ^7.12.1
     "@babel/preset-env": ^7.12.1
-    "@brummelte/eslint-config": ^8.3.4
+    "@brummelte/eslint-config": ^8.3.5
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/commit-analyzer": ^8.0.1
     "@semantic-release/git": ^9.0.0
