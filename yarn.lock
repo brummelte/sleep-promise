@@ -1222,9 +1222,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brummelte/eslint-config@npm:^8.3.7":
-  version: 8.3.7
-  resolution: "@brummelte/eslint-config@npm:8.3.7"
+"@brummelte/eslint-config@npm:^8.3.8":
+  version: 8.3.8
+  resolution: "@brummelte/eslint-config@npm:8.3.8"
   dependencies:
     babel-eslint: ^10.1.0
     eslint-config-prettier: ^6.15.0
@@ -1238,11 +1238,11 @@ __metadata:
     eslint-plugin-prettier: ^3.1.4
     eslint-plugin-react: ^7.21.5
     eslint-plugin-react-hooks: ^4.2.0
-    eslint-plugin-testing-library: ^3.9.2
+    eslint-plugin-testing-library: ^3.10.0
     prettier: ^2.1.2
   peerDependencies:
     eslint: ">=7.12.1"
-  checksum: 573aa154c61b3755e80560502dac0f875a5fc9d59c611e2983a1b34637101dd34c3479a4f656aef540307742baf4d4cbebd710cd3687f4b9dbfe6e5f07488539
+  checksum: f2acd15fabc348e45e58f6a295d2f404bdd808e384f300139038f0e7df6ab42b983ef0e735946a3dfaec298f229fcdaa30d17dd2637b8cc0917da6959318f383
   languageName: node
   linkType: hard
 
@@ -4409,14 +4409,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-testing-library@npm:^3.9.2":
-  version: 3.9.2
-  resolution: "eslint-plugin-testing-library@npm:3.9.2"
+"eslint-plugin-testing-library@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "eslint-plugin-testing-library@npm:3.10.0"
   dependencies:
     "@typescript-eslint/experimental-utils": ^3.10.1
   peerDependencies:
     eslint: ^5 || ^6 || ^7
-  checksum: 66364cc21b5b02819998b83bb4630c32db08cfe0cef5372b0519a478e8cf82a403bc15b9dc617e2169ae6de52fd53c0a410c959897831e1a607c5c1881ad323f
+  checksum: 3685faf492d9ba2b779446137da8ac1c69322e0eed9e4c3692979f862e922cc06b906a90eb8f6a74676b73356288f1fcc19179de410f270be2aae413fa521569
   languageName: node
   linkType: hard
 
@@ -10244,7 +10244,7 @@ resolve@^1.18.1:
     "@babel/core": ^7.12.3
     "@babel/plugin-transform-runtime": ^7.12.1
     "@babel/preset-env": ^7.12.1
-    "@brummelte/eslint-config": ^8.3.7
+    "@brummelte/eslint-config": ^8.3.8
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/commit-analyzer": ^8.0.1
     "@semantic-release/git": ^9.0.0
