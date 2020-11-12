@@ -1222,9 +1222,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brummelte/eslint-config@npm:^8.3.10":
-  version: 8.3.10
-  resolution: "@brummelte/eslint-config@npm:8.3.10"
+"@brummelte/eslint-config@npm:^8.3.11":
+  version: 8.3.11
+  resolution: "@brummelte/eslint-config@npm:8.3.11"
   dependencies:
     babel-eslint: ^10.1.0
     eslint-config-prettier: ^6.15.0
@@ -1232,7 +1232,7 @@ __metadata:
     eslint-plugin-filenames: ^1.3.2
     eslint-plugin-functional: ^3.1.0
     eslint-plugin-import: 2.22.1
-    eslint-plugin-jest: ^24.1.2
+    eslint-plugin-jest: ^24.1.3
     eslint-plugin-jest-dom: ^3.2.4
     eslint-plugin-jsx-a11y: ^6.4.1
     eslint-plugin-prettier: ^3.1.4
@@ -1242,7 +1242,7 @@ __metadata:
     prettier: ^2.1.2
   peerDependencies:
     eslint: ">=7.12.1"
-  checksum: 840e653fa968aab55a5204418ae37568a11c62a854d22ca734fa2015d9aa518673d39eb60662417b07bc8b597a47ef1719164465e3f369c3cf4350505109253d
+  checksum: dbfd6aba43bf576c5fd7e7ded657261901baf2915f5455ceb3e01271011eae4fcfa99da8f28fa8cb85720109e95db595f923e77f3a4c0c344b3c2ceea39947c0
   languageName: node
   linkType: hard
 
@@ -4336,14 +4336,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^24.1.2":
-  version: 24.1.2
-  resolution: "eslint-plugin-jest@npm:24.1.2"
+"eslint-plugin-jest@npm:^24.1.3":
+  version: 24.1.3
+  resolution: "eslint-plugin-jest@npm:24.1.3"
   dependencies:
     "@typescript-eslint/experimental-utils": ^4.0.1
   peerDependencies:
     eslint: ">=5"
-  checksum: b3034cee08389f80e720d12e9ceae61997ab32209bd3c10788c31eab5c0104a0d349faa54edf2189b798aafe67b5fbfada7a709467e02fc57306c2215b5cbcd5
+  checksum: d1b8f14d7553ee9cd1b85d4e3478439b9c2c789fff9b10f19f047c4aae83acb62b966a4fdd5182740a6d9339ac54d56e67be5e15f3326a53ea6b772753076cd7
   languageName: node
   linkType: hard
 
@@ -10246,7 +10246,7 @@ resolve@^1.18.1:
     "@babel/core": ^7.12.3
     "@babel/plugin-transform-runtime": ^7.12.1
     "@babel/preset-env": ^7.12.1
-    "@brummelte/eslint-config": ^8.3.10
+    "@brummelte/eslint-config": ^8.3.11
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/commit-analyzer": ^8.0.1
     "@semantic-release/git": ^9.0.0
