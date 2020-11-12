@@ -1222,9 +1222,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brummelte/eslint-config@npm:^8.3.9":
-  version: 8.3.9
-  resolution: "@brummelte/eslint-config@npm:8.3.9"
+"@brummelte/eslint-config@npm:^8.3.10":
+  version: 8.3.10
+  resolution: "@brummelte/eslint-config@npm:8.3.10"
   dependencies:
     babel-eslint: ^10.1.0
     eslint-config-prettier: ^6.15.0
@@ -1232,7 +1232,7 @@ __metadata:
     eslint-plugin-filenames: ^1.3.2
     eslint-plugin-functional: ^3.1.0
     eslint-plugin-import: 2.22.1
-    eslint-plugin-jest: ^24.1.1
+    eslint-plugin-jest: ^24.1.2
     eslint-plugin-jest-dom: ^3.2.4
     eslint-plugin-jsx-a11y: ^6.4.1
     eslint-plugin-prettier: ^3.1.4
@@ -1242,7 +1242,7 @@ __metadata:
     prettier: ^2.1.2
   peerDependencies:
     eslint: ">=7.12.1"
-  checksum: 05e62f6d470608a589d8d0342df9e1e6f08aed826d6f33a210b601319914dcbd88f3160d334fc864189aa3787a03240126a5a5874dfc423955844643461714d4
+  checksum: 840e653fa968aab55a5204418ae37568a11c62a854d22ca734fa2015d9aa518673d39eb60662417b07bc8b597a47ef1719164465e3f369c3cf4350505109253d
   languageName: node
   linkType: hard
 
@@ -4336,7 +4336,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^24.1.1":
+"eslint-plugin-jest@npm:^24.1.2":
   version: 24.1.2
   resolution: "eslint-plugin-jest@npm:24.1.2"
   dependencies:
@@ -10246,7 +10246,7 @@ resolve@^1.18.1:
     "@babel/core": ^7.12.3
     "@babel/plugin-transform-runtime": ^7.12.1
     "@babel/preset-env": ^7.12.1
-    "@brummelte/eslint-config": ^8.3.9
+    "@brummelte/eslint-config": ^8.3.10
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/commit-analyzer": ^8.0.1
     "@semantic-release/git": ^9.0.0
