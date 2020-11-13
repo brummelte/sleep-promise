@@ -1561,6 +1561,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@octokit/core@npm:^3.0.0":
+  version: 3.2.1
+  resolution: "@octokit/core@npm:3.2.1"
+  dependencies:
+    "@octokit/auth-token": ^2.4.0
+    "@octokit/graphql": ^4.3.1
+    "@octokit/request": ^5.4.0
+    "@octokit/types": ^5.0.0
+    before-after-hook: ^2.1.0
+    universal-user-agent: ^6.0.0
+  checksum: da53d61062c1bca70358e9f1034340a820270fa606b0888b120b10367133e2c72f2ce3e95385b0da40a872d0398fd8bcd35cea64eec25e6c535fae92abaa1e3d
+  languageName: node
+  linkType: hard
+
 "@octokit/endpoint@npm:^6.0.1":
   version: 6.0.8
   resolution: "@octokit/endpoint@npm:6.0.8"
@@ -1611,6 +1625,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@octokit/plugin-rest-endpoint-methods@npm:4.2.1":
+  version: 4.2.1
+  resolution: "@octokit/plugin-rest-endpoint-methods@npm:4.2.1"
+  dependencies:
+    "@octokit/types": ^5.5.0
+    deprecation: ^2.3.1
+  checksum: 2a98a00b9a9aa5d300d9a49631aed3023072ee854ea2539eee96ff592ad2ce7b498501923b2994575a4d49be7fc0bae7931cba631283d7b4badc48c42c1ccedf
+  languageName: node
+  linkType: hard
+
 "@octokit/request-error@npm:^2.0.0":
   version: 2.0.2
   resolution: "@octokit/request-error@npm:2.0.2"
@@ -1647,6 +1671,18 @@ __metadata:
     "@octokit/plugin-request-log": ^1.0.0
     "@octokit/plugin-rest-endpoint-methods": 3.17.0
   checksum: 13df2d27c0ede3bc649dacd12a1043c8070af96a8a628235dc9aff509247cc8cf8208596d32a1013f563cae9514b0bd2b32909271eb6a73d7424d663096a55a1
+  languageName: node
+  linkType: hard
+
+"@octokit/rest@npm:^18.0.0":
+  version: 18.0.9
+  resolution: "@octokit/rest@npm:18.0.9"
+  dependencies:
+    "@octokit/core": ^3.0.0
+    "@octokit/plugin-paginate-rest": ^2.2.0
+    "@octokit/plugin-request-log": ^1.0.0
+    "@octokit/plugin-rest-endpoint-methods": 4.2.1
+  checksum: b332c0d279d9fca793300edf44982e21d64362f992700f8c38881b5f93886ab7f6ca62c3ea46462c5bbd38e3ee395cf4cad371e90f9ae84b0bf6a362ac067846
   languageName: node
   linkType: hard
 
@@ -1724,7 +1760,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:^7.0.0, @semantic-release/github@npm:^7.1.1":
+"@semantic-release/github@npm:^7.0.0":
   version: 7.1.1
   resolution: "@semantic-release/github@npm:7.1.1"
   dependencies:
@@ -1747,6 +1783,32 @@ __metadata:
   peerDependencies:
     semantic-release: ">=16.0.0 <18.0.0"
   checksum: 202f7c91203bac4cf928a093c72f16a84acc7326a10711c64fdbaa89787f175ddac383b05166d18d42464d308378ed1d58ae84b81abf45ce79490bbb579c3f8e
+  languageName: node
+  linkType: hard
+
+"@semantic-release/github@npm:^7.1.2":
+  version: 7.1.2
+  resolution: "@semantic-release/github@npm:7.1.2"
+  dependencies:
+    "@octokit/rest": ^18.0.0
+    "@semantic-release/error": ^2.2.0
+    aggregate-error: ^3.0.0
+    bottleneck: ^2.18.1
+    debug: ^4.0.0
+    dir-glob: ^3.0.0
+    fs-extra: ^9.0.0
+    globby: ^11.0.0
+    http-proxy-agent: ^4.0.0
+    https-proxy-agent: ^5.0.0
+    issue-parser: ^6.0.0
+    lodash: ^4.17.4
+    mime: ^2.4.3
+    p-filter: ^2.0.0
+    p-retry: ^4.0.0
+    url-join: ^4.0.0
+  peerDependencies:
+    semantic-release: ">=16.0.0 <18.0.0"
+  checksum: 290eba94cd49cc954b56d0246141c2e9866654c381a8440fe2fe24917513cf3ab8f72c8ece4cce070b8e46e7ca06e4f4a24605c6646083b34df1a74870017745
   languageName: node
   linkType: hard
 
@@ -10250,7 +10312,7 @@ resolve@^1.18.1:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/commit-analyzer": ^8.0.1
     "@semantic-release/git": ^9.0.0
-    "@semantic-release/github": ^7.1.1
+    "@semantic-release/github": ^7.1.2
     "@semantic-release/npm": ^7.0.6
     "@semantic-release/release-notes-generator": ^9.0.1
     babel-jest: ^26.6.3
