@@ -1812,7 +1812,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/npm@npm:^7.0.0, @semantic-release/npm@npm:^7.0.6":
+"@semantic-release/npm@npm:^7.0.0":
   version: 7.0.6
   resolution: "@semantic-release/npm@npm:7.0.6"
   dependencies:
@@ -1832,6 +1832,29 @@ __metadata:
   peerDependencies:
     semantic-release: ">=16.0.0 <18.0.0"
   checksum: 0c1996913fbc2f9bc8a83f55c3cad76231850d3de4dde8ce43a1a7a9c27184808228f33db2b8742ffed798154f2791d4e1bdb88868a53a4f79927b7858395668
+  languageName: node
+  linkType: hard
+
+"@semantic-release/npm@npm:^7.0.8":
+  version: 7.0.8
+  resolution: "@semantic-release/npm@npm:7.0.8"
+  dependencies:
+    "@semantic-release/error": ^2.2.0
+    aggregate-error: ^3.0.0
+    execa: ^4.0.0
+    fs-extra: ^9.0.0
+    lodash: ^4.17.15
+    nerf-dart: ^1.0.0
+    normalize-url: ^5.0.0
+    npm: ^6.14.8
+    rc: ^1.2.8
+    read-pkg: ^5.0.0
+    registry-auth-token: ^4.0.0
+    semver: ^7.1.2
+    tempy: ^1.0.0
+  peerDependencies:
+    semantic-release: ">=16.0.0 <18.0.0"
+  checksum: 7b470754d57bcbcedfbd09a97b96977f800a9e4a405a59f2ed7c829be847468a5e1885850ebe0f64fdbbd2f2d21d6f6045b1688b7bd777b3454ff3ee8c304444
   languageName: node
   linkType: hard
 
@@ -3900,6 +3923,22 @@ __metadata:
     is-descriptor: ^1.0.2
     isobject: ^3.0.1
   checksum: 00c7ec53b5040507016736922a9678b3247bc85e0ea0429e47d6ca6a993890f9dc338fb19d5bf6f8c0ca29016a68aa7e7da5c35d4ed8b3646347d86a3b2b4b01
+  languageName: node
+  linkType: hard
+
+"del@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "del@npm:6.0.0"
+  dependencies:
+    globby: ^11.0.1
+    graceful-fs: ^4.2.4
+    is-glob: ^4.0.1
+    is-path-cwd: ^2.2.0
+    is-path-inside: ^3.0.2
+    p-map: ^4.0.0
+    rimraf: ^3.0.2
+    slash: ^3.0.0
+  checksum: da72707c9221154db6d6b05890ac1ae771d1b4ffc2759a6b8fca58e8a8289e07d22b68f68666a6c540dd99f1021b29ef77918dcaf4dbfeb9f99f49bd7fcc6fb5
   languageName: node
   linkType: hard
 
@@ -6086,12 +6125,26 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"is-path-cwd@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "is-path-cwd@npm:2.2.0"
+  checksum: 900f6e81445b9979705952189d7dbada79dbe6d77be3b5fc95aed3dc1cc9d77de5b286db2d525942a72a717c81aa549509b76705883415fb655183dfefce9541
+  languageName: node
+  linkType: hard
+
 "is-path-inside@npm:^1.0.0":
   version: 1.0.1
   resolution: "is-path-inside@npm:1.0.1"
   dependencies:
     path-is-inside: ^1.0.1
   checksum: 7ccbc0bedfb98d07191f9a6c839f78ffb102c24fb77f58ecca52fec13d618d15b7bd52d6335637a80c8830bc4864849adda8fd4107755a96747d690336190beb
+  languageName: node
+  linkType: hard
+
+"is-path-inside@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "is-path-inside@npm:3.0.2"
+  checksum: 709ba85a713d25fb058a4c2f62e9e7160bcc1a3e48af2f201045cde027fc1efe61a6e1b5c1cf21b8329f764e3649e160976fde14317c1b848caa9c1f31d5beec
   languageName: node
   linkType: hard
 
@@ -8352,7 +8405,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"npm@npm:^6.13.0":
+"npm@npm:^6.13.0, npm@npm:^6.14.8":
   version: 6.14.8
   resolution: "npm@npm:6.14.8"
   dependencies:
@@ -8805,6 +8858,15 @@ fsevents@^1.2.7:
   version: 2.1.0
   resolution: "p-map@npm:2.1.0"
   checksum: 8557e841ed832a489aaee7d825b7bea73e0559c452578821f5af418f430a8455727ab8dd5b4318b6b6733096029cfa571aa0e8d21bdd2c213025f02f919f7a9a
+  languageName: node
+  linkType: hard
+
+"p-map@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "p-map@npm:4.0.0"
+  dependencies:
+    aggregate-error: ^3.0.0
+  checksum: d51e630d72b7c38bc9e396710e7a068f0b813fe4db6f4a2d1ce2972e7fa11142c763c3aa39bcfd77c0133688c1ebfdd9b38fa3ac4c6ada20b62df26239c5c0e4
   languageName: node
   linkType: hard
 
@@ -10313,7 +10375,7 @@ resolve@^1.18.1:
     "@semantic-release/commit-analyzer": ^8.0.1
     "@semantic-release/git": ^9.0.0
     "@semantic-release/github": ^7.1.2
-    "@semantic-release/npm": ^7.0.6
+    "@semantic-release/npm": ^7.0.8
     "@semantic-release/release-notes-generator": ^9.0.1
     babel-jest: ^26.6.3
     copyfiles: ^2.4.0
@@ -10972,6 +11034,19 @@ resolve@^1.18.1:
   languageName: node
   linkType: hard
 
+"tempy@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "tempy@npm:1.0.0"
+  dependencies:
+    del: ^6.0.0
+    is-stream: ^2.0.0
+    temp-dir: ^2.0.0
+    type-fest: ^0.16.0
+    unique-string: ^2.0.0
+  checksum: 3f5dc793d1bcf933eb7cfba8f2490749ad4974eda064fdb7c95bb42196e8d935b12f91ab764fc86b7d398af867966785349e1ee97674a8c770e23ed5f9bb7f6f
+  languageName: node
+  linkType: hard
+
 "term-size@npm:^1.2.0":
   version: 1.2.0
   resolution: "term-size@npm:1.2.0"
@@ -11271,6 +11346,13 @@ resolve@^1.18.1:
   version: 0.13.1
   resolution: "type-fest@npm:0.13.1"
   checksum: 11acce4f34c75a838914bdc4a0133d2dd0864e313897471974880df82624159521bae691a6100ff99f93be2d0f8871ecdab18573d2c67e61905cf2f5cbfa52a6
+  languageName: node
+  linkType: hard
+
+"type-fest@npm:^0.16.0":
+  version: 0.16.0
+  resolution: "type-fest@npm:0.16.0"
+  checksum: d30834bb1d96f0eb4ec53248d094bc96c026c06873be4f35816dee3812d210a85cbb23e1ac3f231d98c804efedb49aec83752b9b265c3f3aad03e2c23e4f2876
   languageName: node
   linkType: hard
 
