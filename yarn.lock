@@ -10138,9 +10138,9 @@ resolve@^1.18.1:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:17.2.3, semantic-release@npm:^17.2.3":
-  version: 17.2.3
-  resolution: "semantic-release@npm:17.2.3"
+"semantic-release@npm:17.2.4, semantic-release@npm:^17.2.4":
+  version: 17.2.4
+  resolution: "semantic-release@npm:17.2.4"
   dependencies:
     "@semantic-release/commit-analyzer": ^8.0.0
     "@semantic-release/error": ^2.2.0
@@ -10172,7 +10172,7 @@ resolve@^1.18.1:
     yargs: ^15.0.1
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 9a7d1b2803fdebfea95d85a5378739220b5b262a1fffe809266f8aa1751292038a01233453a627349c522063602d441d7f81d6b5fec4a333eb84e1a5103b3ea9
+  checksum: e20c8daa59853ece530e9e7364222b0351b03bbd61fa9b47a319d6a2291e798c3e636cdd60714484360356a2ff7bd9daaee6b03ad2f28b9d51943114b601a4f0
   languageName: node
   linkType: hard
 
@@ -10388,7 +10388,7 @@ resolve@^1.18.1:
     rollup-plugin-babel: ^4.4.0
     rollup-plugin-node-resolve: ^5.2.0
     rollup-plugin-terser: ^7.0.2
-    semantic-release: ^17.2.3
+    semantic-release: ^17.2.4
     typescript: ^4.1.2
   languageName: unknown
   linkType: soft
