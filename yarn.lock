@@ -10211,9 +10211,9 @@ resolve@^1.18.1:
   languageName: node
   linkType: hard
 
-"rollup@npm:^2.34.2":
-  version: 2.34.2
-  resolution: "rollup@npm:2.34.2"
+"rollup@npm:^2.35.0":
+  version: 2.35.0
+  resolution: "rollup@npm:2.35.0"
   dependencies:
     fsevents: ~2.1.2
   dependenciesMeta:
@@ -10221,7 +10221,7 @@ resolve@^1.18.1:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: d1baf78ea29d561a88d2d19ffdf324b62177b916373f35953cec635fbd10184ba44d75bca36cc6a317477a9c439b43e287151bbde4b2bf20c8ef96feb60e1207
+  checksum: 8a8564943090e651cca3ba6688473332f356eb649dd038b8229c457e4b69b6c5dd7a1ccb607071ccdfdad2cf356267b706d4ff983031c8f1c5f62bc370f5bade
   languageName: node
   linkType: hard
 
@@ -10552,7 +10552,7 @@ resolve@^1.18.1:
     jest: ^26.6.3
     jest-junit: ^12.0.0
     rimraf: ^3.0.2
-    rollup: ^2.34.2
+    rollup: ^2.35.0
     rollup-plugin-babel: ^4.4.0
     rollup-plugin-node-resolve: ^5.2.0
     rollup-plugin-terser: ^7.0.2
