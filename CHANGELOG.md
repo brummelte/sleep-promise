@@ -1,3 +1,10 @@
+## [9.0.1](https://github.com/brummelte/sleep-promise/compare/v9.0.0...v9.0.1) (2021-01-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency rollup to ^2.36.0 ([a6e5427](https://github.com/brummelte/sleep-promise/commit/a6e5427eb20180a15a9f6937f3585515bd5472c1))
+
 # [9.0.0](https://github.com/brummelte/sleep-promise/compare/v8.0.1...v9.0.0) (2020-10-18)
 
 * chore: add github actions ([a355a7b](https://github.com/brummelte/sleep-promise/commit/a355a7b))
@@ -138,6 +145,3 @@
 
 * Corrected license year. ([fdfc2b8](https://github.com/brummelte/sleep-promise/commit/fdfc2b8))
 * Initial commit ([36de357](https://github.com/brummelte/sleep-promise/commit/36de357))
-
-
-
