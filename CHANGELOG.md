@@ -1,3 +1,10 @@
+# [9.1.0](https://github.com/brummelte/sleep-promise/compare/v9.0.1...v9.1.0) (2021-01-06)
+
+
+### Features
+
+* **release:** release new version ([f48e5c4](https://github.com/brummelte/sleep-promise/commit/f48e5c4a95e732bd158d9e01002b391621f74126))
+
 ## [9.0.1](https://github.com/brummelte/sleep-promise/compare/v9.0.0...v9.0.1) (2021-01-06)
 
 
