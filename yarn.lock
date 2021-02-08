@@ -8059,12 +8059,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:^1.0.0":
-  version: 1.2.0
-  resolution: "marked@npm:1.2.0"
+"marked@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "marked@npm:2.0.0"
   bin:
     marked: bin/marked
-  checksum: 8726f56a03ba7c782f1a3616f5f7a213bd762828bfdb919b33abaed901f2df6a549aef9ee20a8886fef1e6b6ab5cf80f85ede4391939141086c81fd0e65ea4fc
+  checksum: 5b3b13b9b68beb126284d04fedeacee37c847618c091cf575eaa32746cf0af2d65b1ed25b2cc9269b0cdffa2e8dc5aa2daacff81ead68c59a7a6a1656f1d28ed
   languageName: node
   linkType: hard
 
@@ -10573,9 +10573,9 @@ resolve@^1.18.1:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:17.3.7, semantic-release@npm:^17.3.7":
-  version: 17.3.7
-  resolution: "semantic-release@npm:17.3.7"
+"semantic-release@npm:17.3.8, semantic-release@npm:^17.3.8":
+  version: 17.3.8
+  resolution: "semantic-release@npm:17.3.8"
   dependencies:
     "@semantic-release/commit-analyzer": ^8.0.0
     "@semantic-release/error": ^2.2.0
@@ -10594,7 +10594,7 @@ resolve@^1.18.1:
     hook-std: ^2.0.0
     hosted-git-info: ^3.0.0
     lodash: ^4.17.15
-    marked: ^1.0.0
+    marked: ^2.0.0
     marked-terminal: ^4.0.0
     micromatch: ^4.0.2
     p-each-series: ^2.1.0
@@ -10607,7 +10607,7 @@ resolve@^1.18.1:
     yargs: ^16.2.0
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 171d750c4dc6a635f344be5c0d8c67e7903875a851fd16c104b2aa2a9ba10d88d24aab5f7f4d1df4684b8865e0fdf33b3f5fe62939fd8038a4c7e7a1ddcec05e
+  checksum: 47c47f41bc10c1dbf8e02c66878d8bb733f454fddd2b2a6171cab0350960743a080656ca810ba656ed44c07c153662f10ee304d678789322ee3348eca3998bd7
   languageName: node
   linkType: hard
 
@@ -10823,7 +10823,7 @@ resolve@^1.18.1:
     rollup-plugin-babel: ^4.4.0
     rollup-plugin-node-resolve: ^5.2.0
     rollup-plugin-terser: ^7.0.2
-    semantic-release: ^17.3.7
+    semantic-release: ^17.3.8
     typescript: ^4.1.3
   languageName: unknown
   linkType: soft
