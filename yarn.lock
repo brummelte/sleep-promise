@@ -1309,9 +1309,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-runtime@npm:^7.13.5":
-  version: 7.13.5
-  resolution: "@babel/plugin-transform-runtime@npm:7.13.5"
+"@babel/plugin-transform-runtime@npm:^7.13.6":
+  version: 7.13.6
+  resolution: "@babel/plugin-transform-runtime@npm:7.13.6"
   dependencies:
     "@babel/helper-module-imports": ^7.12.13
     "@babel/helper-plugin-utils": ^7.13.0
@@ -1321,7 +1321,7 @@ __metadata:
     semver: 7.0.0
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: ca80f64122f93e42799d297748749980ab399ab350d12100440450fe5119b2a35c00f5b46f2cb29fc17eb946442b9f527639545ffcc9879180f6b0922ca710c2
+  checksum: 48d5f62f08fd3f410a580c7a242797651cae99453c18331ac4b7af2510deb3b8c877b3f6395605d675ce708994c6c163b0a678ca9f974fede5d631f642c6e299
   languageName: node
   linkType: hard
 
@@ -10993,7 +10993,7 @@ __metadata:
   dependencies:
     "@babel/cli": ^7.13.0
     "@babel/core": ^7.13.1
-    "@babel/plugin-transform-runtime": ^7.13.5
+    "@babel/plugin-transform-runtime": ^7.13.6
     "@babel/preset-env": ^7.13.5
     "@brummelte/eslint-config": ^8.3.14
     "@semantic-release/changelog": ^5.0.1
