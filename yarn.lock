@@ -11022,7 +11022,7 @@ __metadata:
     rollup-plugin-node-resolve: ^5.2.0
     rollup-plugin-terser: ^7.0.2
     semantic-release: ^17.4.1
-    typescript: ^4.2.2
+    typescript: ^4.2.3
   languageName: unknown
   linkType: soft
 
@@ -12019,23 +12019,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-typescript@^4.2.2:
-  version: 4.2.2
-  resolution: "typescript@npm:4.2.2"
+typescript@^4.2.3:
+  version: 4.2.3
+  resolution: "typescript@npm:4.2.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: b2e3d5551a12c51b6b7a14f0e78d2664c136fab4dfb3eecaaf7a6e8e7e608f2cf43c6ebe81387d194db2588793b769720d2df523d445a1664b7585c5b9a85984
+  checksum: 06e8470f317db6f5e2fce809b20eb84a67a7d8179057abff36e5427bd1b891bd08e54581ff81f0fa36aef9b6d1eb0f54eaf6e2643c6dbd4e37a0adcc41eed256
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.2.2#builtin<compat/typescript>":
-  version: 4.2.2
-  resolution: "typescript@patch:typescript@npm%3A4.2.2#builtin<compat/typescript>::version=4.2.2&hash=5bf698"
+"typescript@patch:typescript@^4.2.3#builtin<compat/typescript>":
+  version: 4.2.3
+  resolution: "typescript@patch:typescript@npm%3A4.2.3#builtin<compat/typescript>::version=4.2.3&hash=5bf698"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: a111e3691879a3a817651d559ca5a3f0c967ae1891833acd8ae976338cb2c3874489e6b181b8f871c9166c94396115a3ba0069d8958bb193794429ba56ef1834
+  checksum: 54b8cd7b27e4ab74e412017123b4aba63dc6ea284c197d8f19a7bf8e4f181c1576fd6e3aa4e840fdc2c6e4b769559932902c6b8db392a4ff3c1546dc115e5542
   languageName: node
   linkType: hard
 
