@@ -1638,9 +1638,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brummelte/eslint-config@npm:^8.3.14":
-  version: 8.3.14
-  resolution: "@brummelte/eslint-config@npm:8.3.14"
+"@brummelte/eslint-config@npm:^8.3.15":
+  version: 8.3.15
+  resolution: "@brummelte/eslint-config@npm:8.3.15"
   dependencies:
     babel-eslint: ^10.1.0
     eslint-config-prettier: ^6.15.0
@@ -1648,7 +1648,7 @@ __metadata:
     eslint-plugin-filenames: ^1.3.2
     eslint-plugin-functional: ^3.1.0
     eslint-plugin-import: 2.22.1
-    eslint-plugin-jest: ^24.1.5
+    eslint-plugin-jest: ^24.1.7
     eslint-plugin-jest-dom: ^3.2.4
     eslint-plugin-jsx-a11y: ^6.4.1
     eslint-plugin-prettier: ^3.1.4
@@ -1658,7 +1658,7 @@ __metadata:
     prettier: ^2.1.2
   peerDependencies:
     eslint: ">=7.13.0"
-  checksum: e8be9c7a7e67900c535fd2a19f037c5407c91cfe8d5c38e26592191da53800eb58bd22b2cfdd87dfc09166f48214c2c387479df76edcda1b06a281e7e0a298db
+  checksum: 857534dbf6be808e42f3e076d321300d64910dd8157a3f85db36558feddfcd7eeb4896eed39dc2d4d5ee858b7f4388218f42dcbab7bdffaa04b2d41820f8224b
   languageName: node
   linkType: hard
 
@@ -4914,14 +4914,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^24.1.5":
-  version: 24.1.5
-  resolution: "eslint-plugin-jest@npm:24.1.5"
+"eslint-plugin-jest@npm:^24.1.7":
+  version: 24.1.7
+  resolution: "eslint-plugin-jest@npm:24.1.7"
   dependencies:
     "@typescript-eslint/experimental-utils": ^4.0.1
   peerDependencies:
     eslint: ">=5"
-  checksum: 9e956c0ec9567f91df15d2c0c92b3cf87eab62de10df1cf4daa21ba01857c8827d276474a68d70ae2db64a7ae104c8555124401e17dc4de1590b058cd7c8759e
+  checksum: 5b1d3130609e0e20395bb6b55444ed1ac4797be6366646f57e74ab57d16cc18c586f1f04b4fcaaa98bdbf14ef04e48645a64211ae92086cb64135b12d485c85b
   languageName: node
   linkType: hard
 
@@ -11003,7 +11003,7 @@ __metadata:
     "@babel/core": ^7.13.8
     "@babel/plugin-transform-runtime": ^7.13.9
     "@babel/preset-env": ^7.13.9
-    "@brummelte/eslint-config": ^8.3.14
+    "@brummelte/eslint-config": ^8.3.15
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/commit-analyzer": ^8.0.1
     "@semantic-release/git": ^9.0.0
