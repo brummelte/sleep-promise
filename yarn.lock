@@ -2605,9 +2605,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/npm@npm:^7.1.0":
-  version: 7.1.0
-  resolution: "@semantic-release/npm@npm:7.1.0"
+"@semantic-release/npm@npm:^7.1.1":
+  version: 7.1.1
+  resolution: "@semantic-release/npm@npm:7.1.1"
   dependencies:
     "@semantic-release/error": ^2.2.0
     aggregate-error: ^3.0.0
@@ -2615,7 +2615,7 @@ __metadata:
     fs-extra: ^9.0.0
     lodash: ^4.17.15
     nerf-dart: ^1.0.0
-    normalize-url: ^5.0.0
+    normalize-url: ^6.0.0
     npm: ^7.0.0
     rc: ^1.2.8
     read-pkg: ^5.0.0
@@ -2624,7 +2624,7 @@ __metadata:
     tempy: ^1.0.0
   peerDependencies:
     semantic-release: ">=16.0.0 <18.0.0"
-  checksum: 3d07dc6633260cc1c5cc318523941b00e0b0b9d210c4309621c233cd2e4fe976d51ee2843b6777d21f0e84e8879f44ebdf03cca46923f4da7da0887038305aed
+  checksum: 9d08d943ad53eb50ce766f8d9c607829d72281e70ef8a6486d0aea95e51812b9ec41f98da76942c7cf1c0046b19ebda89be7cad29b4f191f5f583d28a2a6d173
   languageName: node
   linkType: hard
 
@@ -9609,6 +9609,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"normalize-url@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "normalize-url@npm:6.0.0"
+  checksum: ea8e39b4bbaad5110e5fe706eca4eee430635e3c4cf831cb99d9b31bfd25efc125b6446dbf5a24ff767c77e8bdd9ea09fced951d170ac31a25078937ff815529
+  languageName: node
+  linkType: hard
+
 "npm-audit-report@npm:^1.3.3":
   version: 1.3.3
   resolution: "npm-audit-report@npm:1.3.3"
@@ -11999,7 +12006,7 @@ resolve@^1.20.0:
     "@semantic-release/commit-analyzer": ^8.0.1
     "@semantic-release/git": ^9.0.0
     "@semantic-release/github": ^7.2.1
-    "@semantic-release/npm": ^7.1.0
+    "@semantic-release/npm": ^7.1.1
     "@semantic-release/release-notes-generator": ^9.0.2
     babel-jest: ^26.6.3
     copyfiles: ^2.4.1
