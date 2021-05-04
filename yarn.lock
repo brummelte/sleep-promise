@@ -2603,9 +2603,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:^7.2.1":
-  version: 7.2.1
-  resolution: "@semantic-release/github@npm:7.2.1"
+"@semantic-release/github@npm:^7.2.2":
+  version: 7.2.2
+  resolution: "@semantic-release/github@npm:7.2.2"
   dependencies:
     "@octokit/rest": ^18.0.0
     "@semantic-release/error": ^2.2.0
@@ -2613,7 +2613,7 @@ __metadata:
     bottleneck: ^2.18.1
     debug: ^4.0.0
     dir-glob: ^3.0.0
-    fs-extra: ^9.0.0
+    fs-extra: ^10.0.0
     globby: ^11.0.0
     http-proxy-agent: ^4.0.0
     https-proxy-agent: ^5.0.0
@@ -2625,7 +2625,7 @@ __metadata:
     url-join: ^4.0.0
   peerDependencies:
     semantic-release: ">=16.0.0 <18.0.0"
-  checksum: 677f24e1d098a46de2f772ef2939a6b738287aea24ef7d38a481c5e2a5e438f6c0b9941e7374d0dd40b330ea7bf0760004e9938c79af3fdddd0b22412686ed01
+  checksum: 44f3efa9bcad54820153e42627bc501bcc4be5f91ac4341ac15b49cde632c70d834abd410e7a62f7a670fe178297c112b8f0ef2afd90a312554b7de158967e0f
   languageName: node
   linkType: hard
 
@@ -2652,14 +2652,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/npm@npm:^7.1.1":
-  version: 7.1.1
-  resolution: "@semantic-release/npm@npm:7.1.1"
+"@semantic-release/npm@npm:^7.1.2":
+  version: 7.1.2
+  resolution: "@semantic-release/npm@npm:7.1.2"
   dependencies:
     "@semantic-release/error": ^2.2.0
     aggregate-error: ^3.0.0
     execa: ^5.0.0
-    fs-extra: ^9.0.0
+    fs-extra: ^10.0.0
     lodash: ^4.17.15
     nerf-dart: ^1.0.0
     normalize-url: ^6.0.0
@@ -2671,7 +2671,7 @@ __metadata:
     tempy: ^1.0.0
   peerDependencies:
     semantic-release: ">=16.0.0 <18.0.0"
-  checksum: 9d08d943ad53eb50ce766f8d9c607829d72281e70ef8a6486d0aea95e51812b9ec41f98da76942c7cf1c0046b19ebda89be7cad29b4f191f5f583d28a2a6d173
+  checksum: 365fa55e111c2a8176afd1118a38b1fdfe7b25866cfa4c9741bc54c767326c7fc9aec52f90e6db22739d5edc880cafd4d0d5ed1c0f357a52cedc24d00ab72d7c
   languageName: node
   linkType: hard
 
@@ -6096,6 +6096,17 @@ __metadata:
     inherits: ^2.0.1
     readable-stream: ^2.0.0
   checksum: 5f1a9bbff02d30cf5b4f12cfef20b47455876f8318b92d275ca39e3c5adf0636d3a0d8f4821a1c245339c47e79a551dce9ce5c7d9236c16347b934dc13d1d408
+  languageName: node
+  linkType: hard
+
+"fs-extra@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "fs-extra@npm:10.0.0"
+  dependencies:
+    graceful-fs: ^4.2.0
+    jsonfile: ^6.0.1
+    universalify: ^2.0.0
+  checksum: 84632d143fe3125b8c3c2b1fedbbdfcfb84fc3e087522b4e138cc07edf574619925713a6609f6d5e53ede2e31ab319c7d528ea4a4a770ba6622a16bf4447cd8b
   languageName: node
   linkType: hard
 
@@ -12052,8 +12063,8 @@ resolve@^1.20.0:
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/commit-analyzer": ^8.0.1
     "@semantic-release/git": ^9.0.0
-    "@semantic-release/github": ^7.2.1
-    "@semantic-release/npm": ^7.1.1
+    "@semantic-release/github": ^7.2.2
+    "@semantic-release/npm": ^7.1.2
     "@semantic-release/release-notes-generator": ^9.0.2
     babel-jest: ^26.6.3
     copyfiles: ^2.4.1
@@ -13264,6 +13275,13 @@ typescript@^4.2.4:
   version: 1.0.0
   resolution: "universalify@npm:1.0.0"
   checksum: d74303a8d9ff18598804f3e9f261c9376cad55b81a92346f086e59261803ae75bef347044dd6a25549eb3b1490c0dd106dc07154cd7ccad8f037fdae947c125d
+  languageName: node
+  linkType: hard
+
+"universalify@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "universalify@npm:2.0.0"
+  checksum: 36bfbdc97bd4b483596e66ea65e20663f5ab9ec3650157d99b075b7f97afcdefe46bbb23f89171dd75595d398cea3769a5b6d7130f5c66cae2a0f00904780f62
   languageName: node
   linkType: hard
 
