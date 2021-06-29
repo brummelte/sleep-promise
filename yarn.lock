@@ -4619,9 +4619,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"coveralls@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "coveralls@npm:3.1.0"
+"coveralls@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "coveralls@npm:3.1.1"
   dependencies:
     js-yaml: ^3.13.1
     lcov-parse: ^1.0.0
@@ -4629,8 +4629,8 @@ __metadata:
     minimist: ^1.2.5
     request: ^2.88.2
   bin:
-    coveralls: ./bin/coveralls.js
-  checksum: bac2998bf30432827b982d9a098db396d99f3763d473fccba0599c77ec1b67124804a37e2a5dbedf4915917627ed3814c0582e334c382f31ab4c156e9ca2dd69
+    coveralls: bin/coveralls.js
+  checksum: b98fa8c358e7e0477e5d879cfa657cca69b52ffc1a038ccd0bf08ee4c6bb21ae59cc002fb06cb99afa211e8c89a8f5eeac58603731bc3a71853b964e4f359de8
   languageName: node
   linkType: hard
 
@@ -12074,7 +12074,7 @@ resolve@^1.20.0:
     "@semantic-release/release-notes-generator": ^9.0.3
     babel-jest: ^26.6.3
     copyfiles: ^2.4.1
-    coveralls: ^3.1.0
+    coveralls: ^3.1.1
     eslint: ^7.29.0
     jest: ^26.6.3
     jest-junit: ^12.2.0
