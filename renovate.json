@@ -4,11 +4,16 @@
     "config:base",
     ":automergePatch"
   ],
+  "dependencyDashboard": true,
+  "dependencyDashboardAutoclose": true,
   "semanticCommits": "enabled",
   "rangeStrategy": "bump",
+  "stabilityDays": 7,
+  "prCreation": "not-pending",
   "assignees": [
     "brummelte"
   ],
+  "assigneesSampleSize": 1,
   "packageRules": [
     {
       "updateTypes": [
