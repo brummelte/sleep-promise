@@ -1979,7 +1979,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brummelte/eslint-config@npm:^8.3.21":
+"@brummelte/eslint-config@npm:^8.5.0":
   version: 8.5.0
   resolution: "@brummelte/eslint-config@npm:8.5.0"
   dependencies:
@@ -12582,7 +12582,7 @@ resolve@^2.0.0-next.3:
     "@babel/core": ^7.15.0
     "@babel/plugin-transform-runtime": ^7.15.0
     "@babel/preset-env": ^7.15.0
-    "@brummelte/eslint-config": ^8.3.21
+    "@brummelte/eslint-config": ^8.5.0
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/commit-analyzer": ^8.0.1
     "@semantic-release/git": ^9.0.0
