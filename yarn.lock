@@ -5,9 +5,9 @@ __metadata:
   version: 4
   cacheKey: 7
 
-"@babel/cli@npm:^7.14.8":
-  version: 7.14.8
-  resolution: "@babel/cli@npm:7.14.8"
+"@babel/cli@npm:^7.15.4":
+  version: 7.15.4
+  resolution: "@babel/cli@npm:7.15.4"
   dependencies:
     "@nicolo-ribaudo/chokidar-2": 2.1.8-no-fsevents.2
     chokidar: ^3.4.0
@@ -28,7 +28,7 @@ __metadata:
   bin:
     babel: ./bin/babel.js
     babel-external-helpers: ./bin/babel-external-helpers.js
-  checksum: 5ffdc9971668e3a3d8f13368de33286ed70d1328204c6f36e73f70662b11f549a75b913de55dfb2a692acb1a7efbada3e1bea0ac0dd71f72a1c33ad0893108ec
+  checksum: 2dd07024012a8d05c35dca91e673ae34c666dec6648f0fcc447c68734a8b4533b2f20c5f1f74a313f93b506b114b38455636d3e45e3946dd015c6f0a582ea119
   languageName: node
   linkType: hard
 
@@ -12578,7 +12578,7 @@ resolve@^2.0.0-next.3:
   version: 0.0.0-use.local
   resolution: "sleep-promise@workspace:."
   dependencies:
-    "@babel/cli": ^7.14.8
+    "@babel/cli": ^7.15.4
     "@babel/core": ^7.15.0
     "@babel/plugin-transform-runtime": ^7.15.0
     "@babel/preset-env": ^7.15.0
