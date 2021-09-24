@@ -5,11 +5,11 @@ __metadata:
   version: 4
   cacheKey: 7
 
-"@babel/cli@npm:^7.15.4":
-  version: 7.15.4
-  resolution: "@babel/cli@npm:7.15.4"
+"@babel/cli@npm:^7.15.7":
+  version: 7.15.7
+  resolution: "@babel/cli@npm:7.15.7"
   dependencies:
-    "@nicolo-ribaudo/chokidar-2": 2.1.8-no-fsevents.2
+    "@nicolo-ribaudo/chokidar-2": 2.1.8-no-fsevents.3
     chokidar: ^3.4.0
     commander: ^4.0.1
     convert-source-map: ^1.1.0
@@ -28,7 +28,7 @@ __metadata:
   bin:
     babel: ./bin/babel.js
     babel-external-helpers: ./bin/babel-external-helpers.js
-  checksum: 2dd07024012a8d05c35dca91e673ae34c666dec6648f0fcc447c68734a8b4533b2f20c5f1f74a313f93b506b114b38455636d3e45e3946dd015c6f0a582ea119
+  checksum: 429947a69eee67154de5229ab477aa6b47583b8e1593eb3dbcd6b274df6f9e31f039baedea1b4aac2e054f3c47649f88ee9112f170160255a4624f25313fa113
   languageName: node
   linkType: hard
 
@@ -2318,22 +2318,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nicolo-ribaudo/chokidar-2@npm:2.1.8-no-fsevents.2":
-  version: 2.1.8-no-fsevents.2
-  resolution: "@nicolo-ribaudo/chokidar-2@npm:2.1.8-no-fsevents.2"
-  dependencies:
-    anymatch: ^2.0.0
-    async-each: ^1.0.1
-    braces: ^2.3.2
-    glob-parent: ^5.1.2
-    inherits: ^2.0.3
-    is-binary-path: ^1.0.0
-    is-glob: ^4.0.0
-    normalize-path: ^3.0.0
-    path-is-absolute: ^1.0.0
-    readdirp: ^2.2.1
-    upath: ^1.1.1
-  checksum: a1bfb7d490846cfbaf951268b9f38277d24a3d8e737bf78e74deb9403f459cedf9f110df831828244f5f096fcaca056d939e7ae1f1451c1f371a4a0f6b85ad6a
+"@nicolo-ribaudo/chokidar-2@npm:2.1.8-no-fsevents.3":
+  version: 2.1.8-no-fsevents.3
+  resolution: "@nicolo-ribaudo/chokidar-2@npm:2.1.8-no-fsevents.3"
+  checksum: 067796e706fe619bcf8c21a8a126ab2ac503378feaf209ac62954e4707b2d3cc105c7498ad31e4e10faed99d1aef8b84e36f1a899d9b4b97afb174c3b61f9a9f
   languageName: node
   linkType: hard
 
@@ -3691,13 +3679,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"async-each@npm:^1.0.1":
-  version: 1.0.3
-  resolution: "async-each@npm:1.0.3"
-  checksum: 0cf01982ae42db5ce591aab153e45e77aa7c813c4fb282f1e7cac2259f90949f82542e82a33f73ef308e0126c9a8bc702ee117a87614549fe88840cf5a44aec4
-  languageName: node
-  linkType: hard
-
 "asynckit@npm:^0.4.0":
   version: 0.4.0
   resolution: "asynckit@npm:0.4.0"
@@ -3953,13 +3934,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"binary-extensions@npm:^1.0.0":
-  version: 1.13.1
-  resolution: "binary-extensions@npm:1.13.1"
-  checksum: 7cdacc6dadaffb6a4d250c39ca51e1fd7ba0fd846348e2813465dfaa7fce1e59a3465c1555578e7e4e7959023b47824cc387b37780e2160f52fface775cc0133
-  languageName: node
-  linkType: hard
-
 "binary-extensions@npm:^2.0.0":
   version: 2.1.0
   resolution: "binary-extensions@npm:2.1.0"
@@ -4013,7 +3987,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"braces@npm:^2.3.1, braces@npm:^2.3.2":
+"braces@npm:^2.3.1":
   version: 2.3.2
   resolution: "braces@npm:2.3.2"
   dependencies:
@@ -7390,15 +7364,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-binary-path@npm:^1.0.0":
-  version: 1.0.1
-  resolution: "is-binary-path@npm:1.0.1"
-  dependencies:
-    binary-extensions: ^1.0.0
-  checksum: 25a2cda1e504403a179d1daf2773d6ea47ce383e912bc695bb9e923b5d5468447e239499be5c2212c7508be7777196810f8307e1d1f0e83a6191425eb22c2887
-  languageName: node
-  linkType: hard
-
 "is-binary-path@npm:~2.1.0":
   version: 2.1.0
   resolution: "is-binary-path@npm:2.1.0"
@@ -9599,7 +9564,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromatch@npm:^3.1.10, micromatch@npm:^3.1.4":
+"micromatch@npm:^3.1.4":
   version: 3.1.10
   resolution: "micromatch@npm:3.1.10"
   dependencies:
@@ -11810,17 +11775,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"readdirp@npm:^2.2.1":
-  version: 2.2.1
-  resolution: "readdirp@npm:2.2.1"
-  dependencies:
-    graceful-fs: ^4.1.11
-    micromatch: ^3.1.10
-    readable-stream: ^2.0.2
-  checksum: 00b5209ee5278ba6faa2fbcabb817e8f64a498ff7fee8cfd30634a04140e673375582812c67c59e25ee3ee9979687b1c832f33e1bbacd8ac3340bab0645b8374
-  languageName: node
-  linkType: hard
-
 "readdirp@npm:~3.5.0":
   version: 3.5.0
   resolution: "readdirp@npm:3.5.0"
@@ -12620,7 +12574,7 @@ resolve@^2.0.0-next.3:
   version: 0.0.0-use.local
   resolution: "sleep-promise@workspace:."
   dependencies:
-    "@babel/cli": ^7.15.4
+    "@babel/cli": ^7.15.7
     "@babel/core": ^7.15.5
     "@babel/plugin-transform-runtime": ^7.15.0
     "@babel/preset-env": ^7.15.6
@@ -13925,13 +13879,6 @@ typescript@^4.2.4:
   version: 2.0.1
   resolution: "unzip-response@npm:2.0.1"
   checksum: ba0ef3428f3d55c07bfac4ed27497b37cc782c2fa3b93030dce965499d029447f8d6e7a92b1246661abf484d5678c40e67a739eff7836e6e2e66db5f47b4f8c7
-  languageName: node
-  linkType: hard
-
-"upath@npm:^1.1.1":
-  version: 1.2.0
-  resolution: "upath@npm:1.2.0"
-  checksum: ecb08ff3e7e3b152e03bceb7089e6f0077bf3494764397a301eb99a7a5cd4c593ea4d0b13a7714195ad8a3ddca9d7a5964037a1c0bc712e1ba7b67a79165a0be
   languageName: node
   linkType: hard
 
