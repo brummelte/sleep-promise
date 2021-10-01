@@ -2021,9 +2021,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brummelte/eslint-config@npm:^8.5.3":
-  version: 8.5.3
-  resolution: "@brummelte/eslint-config@npm:8.5.3"
+"@brummelte/eslint-config@npm:^8.5.5":
+  version: 8.5.5
+  resolution: "@brummelte/eslint-config@npm:8.5.5"
   dependencies:
     babel-eslint: ^10.1.0
     eslint-config-prettier: ^8.3.0
@@ -2031,8 +2031,8 @@ __metadata:
     eslint-plugin-filenames: ^1.3.2
     eslint-plugin-functional: ^3.5.0
     eslint-plugin-import: 2.24.2
-    eslint-plugin-jest: ^24.4.0
-    eslint-plugin-jest-dom: ^3.9.0
+    eslint-plugin-jest: ^24.4.2
+    eslint-plugin-jest-dom: ^3.9.2
     eslint-plugin-jsx-a11y: ^6.4.1
     eslint-plugin-prettier: ^3.4.1
     eslint-plugin-react: ^7.24.0
@@ -2041,7 +2041,7 @@ __metadata:
     prettier: ^2.3.2
   peerDependencies:
     eslint: ">=7.32.0"
-  checksum: 6afd7560bff3af8fcec379ee16720defd96bf58b49d29616a1be9792c302b731c234e289000be4955f863d896ed0be2e2c7922d9f0a7a64bb8c782cf3fbb2085
+  checksum: 74cc410840224296b4ef8efc2d16c8a70f0ba0b1cc9146be72f8e7e5cf30f843f594ce4331f89a911e0382aece7a0872987de3a48ac9b8e9a55461f8ea0c5a98
   languageName: node
   linkType: hard
 
@@ -5748,22 +5748,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest-dom@npm:^3.9.0":
-  version: 3.9.0
-  resolution: "eslint-plugin-jest-dom@npm:3.9.0"
+"eslint-plugin-jest-dom@npm:^3.9.2":
+  version: 3.9.2
+  resolution: "eslint-plugin-jest-dom@npm:3.9.2"
   dependencies:
     "@babel/runtime": ^7.9.6
     "@testing-library/dom": ^7.28.1
     requireindex: ^1.2.0
   peerDependencies:
     eslint: ">=6.8"
-  checksum: 194129c5fd4e04b979aedaa180d5f9f2eab23015d46a3be945c179c72912586827311fe78398cdb4dc3d488a55b34ab8240e8f3ede6092efd313a7a987399be3
+  checksum: fe705609f83943aba67f237dafea18ac45c8bbe29372ed77100929456aa0238e70b4568084b6dbb7b359177bd0b9150cc2a05eebc38cbf257ee2365a7ce603ef
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^24.4.0":
-  version: 24.4.0
-  resolution: "eslint-plugin-jest@npm:24.4.0"
+"eslint-plugin-jest@npm:^24.4.2":
+  version: 24.5.0
+  resolution: "eslint-plugin-jest@npm:24.5.0"
   dependencies:
     "@typescript-eslint/experimental-utils": ^4.0.1
   peerDependencies:
@@ -5772,7 +5772,7 @@ __metadata:
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
       optional: true
-  checksum: 189a78413943822ad3b58e13906960815dca790035ed00eab796fe465b6f48855b7e2f40a1d30c5fa34bf205d9baa27fdf47cc58c9f402f7d7c358cd3dea8698
+  checksum: d2cb3a1a7379aa3140d5f257458ee33b64c2dff5d83d7ccb00b195b3a870bf108ca5c9426c0d592aaebf741ef915049afeb3f971ec0dc5579d3c85771cb7978e
   languageName: node
   linkType: hard
 
@@ -12578,7 +12578,7 @@ resolve@^2.0.0-next.3:
     "@babel/core": ^7.15.5
     "@babel/plugin-transform-runtime": ^7.15.0
     "@babel/preset-env": ^7.15.6
-    "@brummelte/eslint-config": ^8.5.3
+    "@brummelte/eslint-config": ^8.5.5
     "@semantic-release/changelog": ^5.0.1
     "@semantic-release/commit-analyzer": ^8.0.1
     "@semantic-release/git": ^9.0.1
