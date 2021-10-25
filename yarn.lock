@@ -3303,17 +3303,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ansi-regex@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "ansi-regex@npm:4.1.0"
-  checksum: 53b6fe447cf92ee59739379de637af6f86b3b8a9537fbfe36a66f946f1d9d34afc3efe664ac31bcc7c3af042d43eabcfcfd3f790316d474bbc7b19a4b1d132dd
-  languageName: node
-  linkType: hard
-
 "ansi-regex@npm:^5.0.0":
   version: 5.0.0
   resolution: "ansi-regex@npm:5.0.0"
   checksum: cbd9b5c9dbbb4a949c2a6e93f1c6cc19f0683d8a4724d08d2158627be6d373f0f3ba1f4ada01dce7ee141f2ba2628fbbd29932c7d49926e3b630c7f329f3178b
+  languageName: node
+  linkType: hard
+
+"ansi-regex@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "ansi-regex@npm:5.0.1"
+  checksum: c944e1229f022a2071f7477ea425964328c577d2c752083fe564ea0513b6d733c9ec65102f6d4d2b54cba0cb2dc969648b60d567abeff13dc95ecc0b9b97737d
   languageName: node
   linkType: hard
 
@@ -7361,15 +7361,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-junit@npm:^12.3.0":
-  version: 12.3.0
-  resolution: "jest-junit@npm:12.3.0"
+"jest-junit@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "jest-junit@npm:13.0.0"
   dependencies:
     mkdirp: ^1.0.4
-    strip-ansi: ^5.2.0
+    strip-ansi: ^6.0.1
     uuid: ^8.3.2
     xml: ^1.0.1
-  checksum: a8b90538db7c61dd2bd4c287914927a6631bbc602e221cf1252be729db9ab66473c2f38381d0baaa7358f9efcaee224b5b0de9b4965e58cab588405cfa7fdda8
+  checksum: d81252785ccb1b97e035c47d49c32f1ef3a1c9c11638a05c79396af18ee8322e5cc76539f9a51a90fea7733856fef8fc3caebdfffa1c2309f5c60b0271c37825
   languageName: node
   linkType: hard
 
@@ -10697,7 +10697,7 @@ resolve@^2.0.0-next.3:
     coveralls: ^3.1.1
     eslint: ^7.32.0
     jest: ^26.6.3
-    jest-junit: ^12.3.0
+    jest-junit: ^13.0.0
     rimraf: ^3.0.2
     rollup: ^2.38.2
     rollup-plugin-babel: ^4.4.0
@@ -11132,21 +11132,21 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"strip-ansi@npm:^5.2.0":
-  version: 5.2.0
-  resolution: "strip-ansi@npm:5.2.0"
-  dependencies:
-    ansi-regex: ^4.1.0
-  checksum: 44a0d0d354f5f7b15f83323879a9112ea746daae7bef0b68238a27626ee757d9a04ce6590433841e14b325e8e7c5d62b8442885e50497e21b7cbca6da40d54ea
-  languageName: node
-  linkType: hard
-
 "strip-ansi@npm:^6.0.0":
   version: 6.0.0
   resolution: "strip-ansi@npm:6.0.0"
   dependencies:
     ansi-regex: ^5.0.0
   checksum: 10568c91cadbef182a807c38dfa718dce15a35b12fcc97b96b6b2029d0508ef66ca93fabddeb49482d9b027495d1e18591858e80f27ad26861c4967c60fd207f
+  languageName: node
+  linkType: hard
+
+"strip-ansi@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "strip-ansi@npm:6.0.1"
+  dependencies:
+    ansi-regex: ^5.0.1
+  checksum: 9d3061240b03abe5beaf403893464fdc924f43664debe822d5e9146b56c1398b88003f8afdb97eb0cea955c568f6bbfa4923d2b2a08a3a079fd09ee3b5402efb
   languageName: node
   linkType: hard
 
