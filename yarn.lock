@@ -2471,20 +2471,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/commit-analyzer@npm:^9.0.0, @semantic-release/commit-analyzer@npm:^9.0.1":
-  version: 9.0.1
-  resolution: "@semantic-release/commit-analyzer@npm:9.0.1"
+"@semantic-release/commit-analyzer@npm:^9.0.2":
+  version: 9.0.2
+  resolution: "@semantic-release/commit-analyzer@npm:9.0.2"
   dependencies:
     conventional-changelog-angular: ^5.0.0
     conventional-commits-filter: ^2.0.0
-    conventional-commits-parser: ^3.0.7
+    conventional-commits-parser: ^3.2.3
     debug: ^4.0.0
     import-from: ^4.0.0
     lodash: ^4.17.4
     micromatch: ^4.0.2
   peerDependencies:
     semantic-release: ">=18.0.0-beta.1"
-  checksum: 989ef9658b1cae746f4e9806ebe427670a6c8717a1066aa02c7338e749a1afe39413e1576c345969ec83c2e7813e68dc5aad8a3a8d22fffde023836b7ed12298
+  checksum: 46292e4a42b0825a210d089824e9b8f744cd4e686759160453074dc0bef5e077520a5725961757716e069cbc926ed742ed578094fb7dc6a5f0b63b4694bf2b4a
   languageName: node
   linkType: hard
 
@@ -2618,7 +2618,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/release-notes-generator@npm:^10.0.0, @semantic-release/release-notes-generator@npm:^10.0.2":
+"@semantic-release/release-notes-generator@npm:^10.0.0":
   version: 10.0.2
   resolution: "@semantic-release/release-notes-generator@npm:10.0.2"
   dependencies:
@@ -2635,6 +2635,26 @@ __metadata:
   peerDependencies:
     semantic-release: ">=18.0.0-beta.1"
   checksum: 4bfbbbfe999985083d422dee4c61a5eec473d690ded1e052f878fc7a9e949202560b5a18f4566abb64ae957954e9b7fa8c0955114db1da897cf4514013c59f00
+  languageName: node
+  linkType: hard
+
+"@semantic-release/release-notes-generator@npm:^10.0.3":
+  version: 10.0.3
+  resolution: "@semantic-release/release-notes-generator@npm:10.0.3"
+  dependencies:
+    conventional-changelog-angular: ^5.0.0
+    conventional-changelog-writer: ^5.0.0
+    conventional-commits-filter: ^2.0.0
+    conventional-commits-parser: ^3.2.3
+    debug: ^4.0.0
+    get-stream: ^6.0.0
+    import-from: ^4.0.0
+    into-stream: ^6.0.0
+    lodash: ^4.17.4
+    read-pkg-up: ^7.0.0
+  peerDependencies:
+    semantic-release: ">=18.0.0-beta.1"
+  checksum: ec028908b9da6cc8346b38ee1147d7ff8ddaedf9f6b50c65dbaf13a23ca109f836b97126016fa7c1d44a955ac07ee3cff0b4d0b164e71505f8f2904724709e55
   languageName: node
   linkType: hard
 
@@ -4381,7 +4401,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-commits-parser@npm:^3.0.0, conventional-commits-parser@npm:^3.0.7":
+"conventional-commits-parser@npm:^3.0.0":
   version: 3.1.0
   resolution: "conventional-commits-parser@npm:3.1.0"
   dependencies:
@@ -4395,6 +4415,22 @@ __metadata:
   bin:
     conventional-commits-parser: cli.js
   checksum: 4ffefd705767cb683cca2e733efe55148ae74623221e57bd5e600e68ed4a31beec83695249fcb583fe58da35280aac7cc08789225bd968027f6eb08d75312cb7
+  languageName: node
+  linkType: hard
+
+"conventional-commits-parser@npm:^3.2.3":
+  version: 3.2.3
+  resolution: "conventional-commits-parser@npm:3.2.3"
+  dependencies:
+    JSONStream: ^1.0.4
+    is-text-path: ^1.0.1
+    lodash: ^4.17.15
+    meow: ^8.0.0
+    split2: ^3.0.0
+    through2: ^4.0.0
+  bin:
+    conventional-commits-parser: cli.js
+  checksum: 07ac0ff0d11c1d44f772dc825e9232f8ee06e9f665115fa6ce7b1eb0802c76e0107fbcb8c5671679fabace7d2d7af8cd2f1c01c66bcde064eaee1f790e8df0b9
   languageName: node
   linkType: hard
 
@@ -9880,7 +9916,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"readable-stream@npm:2 || 3, readable-stream@npm:3":
+"readable-stream@npm:2 || 3, readable-stream@npm:3, readable-stream@npm:^3.0.0":
   version: 3.6.0
   resolution: "readable-stream@npm:3.6.0"
   dependencies:
@@ -10436,11 +10472,11 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:18.0.0, semantic-release@npm:^18.0.0":
-  version: 18.0.0
-  resolution: "semantic-release@npm:18.0.0"
+"semantic-release@npm:18.0.1, semantic-release@npm:^18.0.1":
+  version: 18.0.1
+  resolution: "semantic-release@npm:18.0.1"
   dependencies:
-    "@semantic-release/commit-analyzer": ^9.0.0
+    "@semantic-release/commit-analyzer": ^9.0.2
     "@semantic-release/error": ^3.0.0
     "@semantic-release/github": ^8.0.0
     "@semantic-release/npm": ^8.0.0
@@ -10470,7 +10506,7 @@ resolve@^2.0.0-next.3:
     yargs: ^16.2.0
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 36c952029948990960fa39db4e1b8b3c9aeab709d15ae94b2409bbd4e1574c49f430e51fb4860535cb760a8f67003957ae7f7f5ed891286a43d074ae53ba4714
+  checksum: f2457fded9dd0ddd20e9b29bb81cb8d143f2f083cc545df2a271e87ca4cf2de8ea16a2f2b49b7bb973cf90b713d1a92bd2adae976a4de465634342984b079241
   languageName: node
   linkType: hard
 
@@ -10664,11 +10700,11 @@ resolve@^2.0.0-next.3:
     "@babel/preset-env": ^7.16.4
     "@brummelte/eslint-config": ^8.5.16
     "@semantic-release/changelog": ^6.0.1
-    "@semantic-release/commit-analyzer": ^9.0.1
+    "@semantic-release/commit-analyzer": ^9.0.2
     "@semantic-release/git": ^10.0.1
     "@semantic-release/github": ^8.0.2
     "@semantic-release/npm": ^8.0.3
-    "@semantic-release/release-notes-generator": ^10.0.2
+    "@semantic-release/release-notes-generator": ^10.0.3
     babel-jest: ^26.6.3
     copyfiles: ^2.4.1
     coveralls: ^3.1.1
@@ -10680,7 +10716,7 @@ resolve@^2.0.0-next.3:
     rollup-plugin-babel: ^4.4.0
     rollup-plugin-node-resolve: ^5.2.0
     rollup-plugin-terser: ^7.0.2
-    semantic-release: ^18.0.0
+    semantic-release: ^18.0.1
     typescript: ^4.2.4
   languageName: unknown
   linkType: soft
@@ -10867,6 +10903,15 @@ resolve@^2.0.0-next.3:
   dependencies:
     through2: ^2.0.2
   checksum: cf58dc8aa424499cd68a9e7d9ae94441ff972ce0c1f9599bef9d65b3f4384913c557eeec939ea34e2832309d90b6ad6993c5b51b152cba2f72500299464e6a9c
+  languageName: node
+  linkType: hard
+
+"split2@npm:^3.0.0":
+  version: 3.2.2
+  resolution: "split2@npm:3.2.2"
+  dependencies:
+    readable-stream: ^3.0.0
+  checksum: 04bf20af25bfe917edbb7f719cc9dbd2ca16633e4e6a5e343a8c834310aafd802c74b3aceb96acf3571545b0340d55d2d3273dbee8f9bc6a811371dcfbe0c8a7
   languageName: node
   linkType: hard
 
