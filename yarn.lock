@@ -2675,9 +2675,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:^8.0.2":
-  version: 8.0.2
-  resolution: "@semantic-release/github@npm:8.0.2"
+"@semantic-release/github@npm:^8.0.4":
+  version: 8.0.4
+  resolution: "@semantic-release/github@npm:8.0.4"
   dependencies:
     "@octokit/rest": ^18.0.0
     "@semantic-release/error": ^2.2.0
@@ -2697,7 +2697,7 @@ __metadata:
     url-join: ^4.0.0
   peerDependencies:
     semantic-release: ">=18.0.0-beta.1"
-  checksum: 91f965c79977d2a536f67241d576c647092f8f0814dd5df6abb273547f49eee63027457d90e251ef91629665393ec70b1c57a5e4281525015ef5b801fbd9ffc3
+  checksum: f8d9472e21bca92fd411142819d735298a8756ac6d8d53cf2f8ee56d11ab366eaa5243ccc26a312eae39fa682451b21924333ddc12ba0e3c6338f951792f75ba
   languageName: node
   linkType: hard
 
@@ -10818,7 +10818,7 @@ resolve@^2.0.0-next.3:
     "@semantic-release/changelog": ^6.0.1
     "@semantic-release/commit-analyzer": ^9.0.2
     "@semantic-release/git": ^10.0.1
-    "@semantic-release/github": ^8.0.2
+    "@semantic-release/github": ^8.0.4
     "@semantic-release/npm": ^8.0.3
     "@semantic-release/release-notes-generator": ^10.0.3
     babel-jest: ^26.6.3
