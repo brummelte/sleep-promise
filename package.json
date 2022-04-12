@@ -48,7 +48,7 @@
     "coveralls": "^3.1.1",
     "eslint": "^7.32.0",
     "jest": "^26.6.3",
-    "jest-junit": "^13.0.0",
+    "jest-junit": "^13.1.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.38.2",
     "rollup-plugin-babel": "^4.4.0",

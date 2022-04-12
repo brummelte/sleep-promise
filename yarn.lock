@@ -7442,15 +7442,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-junit@npm:^13.0.0":
-  version: 13.0.0
-  resolution: "jest-junit@npm:13.0.0"
+"jest-junit@npm:^13.1.0":
+  version: 13.1.0
+  resolution: "jest-junit@npm:13.1.0"
   dependencies:
     mkdirp: ^1.0.4
     strip-ansi: ^6.0.1
     uuid: ^8.3.2
     xml: ^1.0.1
-  checksum: d81252785ccb1b97e035c47d49c32f1ef3a1c9c11638a05c79396af18ee8322e5cc76539f9a51a90fea7733856fef8fc3caebdfffa1c2309f5c60b0271c37825
+  checksum: a38abd35cb09b471b7cf7731505327addb83e97e86f542931b0ada47c10d3101e79269c47e701c4c1453b5cc58ad863d911954604f3584ac11e7fa7139cc716a
   languageName: node
   linkType: hard
 
@@ -10826,7 +10826,7 @@ resolve@^2.0.0-next.3:
     coveralls: ^3.1.1
     eslint: ^7.32.0
     jest: ^26.6.3
-    jest-junit: ^13.0.0
+    jest-junit: ^13.1.0
     rimraf: ^3.0.2
     rollup: ^2.38.2
     rollup-plugin-babel: ^4.4.0
