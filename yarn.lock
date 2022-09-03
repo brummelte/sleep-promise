@@ -2929,12 +2929,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:^8.0.5":
-  version: 8.0.5
-  resolution: "@semantic-release/github@npm:8.0.5"
+"@semantic-release/github@npm:^8.0.6":
+  version: 8.0.6
+  resolution: "@semantic-release/github@npm:8.0.6"
   dependencies:
     "@octokit/rest": ^19.0.0
-    "@semantic-release/error": ^2.2.0
+    "@semantic-release/error": ^3.0.0
     aggregate-error: ^3.0.0
     bottleneck: ^2.18.1
     debug: ^4.0.0
@@ -2951,7 +2951,7 @@ __metadata:
     url-join: ^4.0.0
   peerDependencies:
     semantic-release: ">=18.0.0-beta.1"
-  checksum: 4e117138aef8066233ef5e4fb07004b90aae067010169b086cbca2a338219b246a9d51b75a6dd3828d3dc87ec370ecde4b090f268684ac6e0697d8525520d8be
+  checksum: 744112e4678fcef6666438898a57c6baa6c70043990ef1aa343a8a156ee11a64f4c71cc898a4c54307108de2e3e98dbcd35425cda02d2a5afa28d848fe65c3f8
   languageName: node
   linkType: hard
 
@@ -10152,9 +10152,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:^19.0.3":
-  version: 19.0.3
-  resolution: "semantic-release@npm:19.0.3"
+"semantic-release@npm:^19.0.5":
+  version: 19.0.5
+  resolution: "semantic-release@npm:19.0.5"
   dependencies:
     "@semantic-release/commit-analyzer": ^9.0.2
     "@semantic-release/error": ^3.0.0
@@ -10186,7 +10186,7 @@ resolve@^2.0.0-next.3:
     yargs: ^16.2.0
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 89afc3bba5b7addc503e92387de76274bf7f8b6c955ea4338760719f91ed730df9774ccfc58b28a0c739eb1eb3bed1f9c9bef393dda1156c4481197bb6671760
+  checksum: e72d7e039ca062a322128da185797fe4e3e23ab8b3dba1e906aaff654cd292c60bbb91776570815cac982d37550a84cfb5e3e13194ecc168ac51f866d7a07584
   languageName: node
   linkType: hard
 
@@ -10365,7 +10365,7 @@ resolve@^2.0.0-next.3:
     "@semantic-release/changelog": ^6.0.1
     "@semantic-release/commit-analyzer": ^9.0.2
     "@semantic-release/git": ^10.0.1
-    "@semantic-release/github": ^8.0.5
+    "@semantic-release/github": ^8.0.6
     "@semantic-release/npm": ^9.0.1
     "@semantic-release/release-notes-generator": ^10.0.3
     babel-jest: ^28.1.3
@@ -10379,7 +10379,7 @@ resolve@^2.0.0-next.3:
     rollup-plugin-babel: ^4.4.0
     rollup-plugin-node-resolve: ^5.2.0
     rollup-plugin-terser: ^7.0.2
-    semantic-release: ^19.0.3
+    semantic-release: ^19.0.5
     typescript: ^4.8.2
   languageName: unknown
   linkType: soft
