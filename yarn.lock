@@ -98,29 +98,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.18.10":
-  version: 7.18.10
-  resolution: "@babel/core@npm:7.18.10"
-  dependencies:
-    "@ampproject/remapping": ^2.1.0
-    "@babel/code-frame": ^7.18.6
-    "@babel/generator": ^7.18.10
-    "@babel/helper-compilation-targets": ^7.18.9
-    "@babel/helper-module-transforms": ^7.18.9
-    "@babel/helpers": ^7.18.9
-    "@babel/parser": ^7.18.10
-    "@babel/template": ^7.18.10
-    "@babel/traverse": ^7.18.10
-    "@babel/types": ^7.18.10
-    convert-source-map: ^1.7.0
-    debug: ^4.1.0
-    gensync: ^1.0.0-beta.2
-    json5: ^2.2.1
-    semver: ^6.3.0
-  checksum: 3a3fcd878430a9e1cb165f755c89fff45acc4efe4dd3a2ba356e89af331cb1947886b9782d56902a49af19ba3c24f08cf638a632699b9c5a4d8305c57c6a150d
-  languageName: node
-  linkType: hard
-
 "@babel/core@npm:^7.18.13":
   version: 7.18.13
   resolution: "@babel/core@npm:7.18.13"
@@ -1812,7 +1789,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/traverse@npm:^7.18.10, @babel/traverse@npm:^7.18.11":
+"@babel/traverse@npm:^7.18.11":
   version: 7.18.11
   resolution: "@babel/traverse@npm:7.18.11"
   dependencies:
@@ -1944,11 +1921,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brummelte/eslint-config@npm:^9.2.6":
-  version: 9.2.6
-  resolution: "@brummelte/eslint-config@npm:9.2.6"
+"@brummelte/eslint-config@npm:^9.2.7":
+  version: 9.2.7
+  resolution: "@brummelte/eslint-config@npm:9.2.7"
   dependencies:
-    "@babel/core": ^7.18.10
+    "@babel/core": ^7.18.13
     "@babel/eslint-parser": ^7.18.9
     "@babel/preset-react": ^7.18.6
     "@rushstack/eslint-patch": ^1.1.4
@@ -1967,7 +1944,7 @@ __metadata:
     prettier: ^2.7.1
   peerDependencies:
     eslint: ">=8.20.0"
-  checksum: 6ac48de81446922c09cb2d7c20e8e27c0e6d315d7efd06d10b14710d49ab8302c63ceb8a64b009a89473fd2322c32aa0c7a96d736f634a06a78ee4f89dfc2335
+  checksum: cb59e718046ef3d83aeb5e7783e7fa3caf6eb1779947ceecdf38ae72463616f9f6d1dc09797ba9b2f7e8dda4478b0e569faeb3eb586a12d75e3bb8359b1782d5
   languageName: node
   linkType: hard
 
@@ -10361,7 +10338,7 @@ resolve@^2.0.0-next.3:
     "@babel/core": ^7.18.13
     "@babel/plugin-transform-runtime": ^7.18.10
     "@babel/preset-env": ^7.18.10
-    "@brummelte/eslint-config": ^9.2.6
+    "@brummelte/eslint-config": ^9.2.7
     "@semantic-release/changelog": ^6.0.1
     "@semantic-release/commit-analyzer": ^9.0.2
     "@semantic-release/git": ^10.0.1
