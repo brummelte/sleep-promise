@@ -2160,9 +2160,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brummelte/eslint-config@npm:^9.2.23":
-  version: 9.2.23
-  resolution: "@brummelte/eslint-config@npm:9.2.23"
+"@brummelte/eslint-config@npm:^9.2.24":
+  version: 9.2.24
+  resolution: "@brummelte/eslint-config@npm:9.2.24"
   dependencies:
     "@babel/core": ^7.20.5
     "@babel/eslint-parser": ^7.19.1
@@ -2180,10 +2180,10 @@ __metadata:
     eslint-plugin-react: ^7.31.11
     eslint-plugin-react-hooks: ^4.6.0
     eslint-plugin-testing-library: ^5.9.1
-    prettier: ^2.8.0
+    prettier: ^2.8.1
   peerDependencies:
-    eslint: ">=8.26.0"
-  checksum: 88b873580f40b471d970b120db8631ada95aa608ccc11c2add07f457e4f4035b431e9884b09031d53137232f317a0d64ace4d18142f976fda4c7f38aad9960f5
+    eslint: ">=8.29.0"
+  checksum: 7c721b5078f27a0ce638b077d0fdbd95638f09f548f327cc4158b97099638389f736611983f904cd5b260f4c144dac85b48823c40ceaf6a87ae0907464e1d3f4
   languageName: node
   linkType: hard
 
@@ -9686,7 +9686,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.8.0":
+"prettier@npm:^2.8.1":
   version: 2.8.1
   resolution: "prettier@npm:2.8.1"
   bin:
@@ -10683,7 +10683,7 @@ resolve@^2.0.0-next.3:
     "@babel/core": ^7.20.5
     "@babel/plugin-transform-runtime": ^7.19.6
     "@babel/preset-env": ^7.20.2
-    "@brummelte/eslint-config": ^9.2.23
+    "@brummelte/eslint-config": ^9.2.24
     "@semantic-release/changelog": ^6.0.2
     "@semantic-release/commit-analyzer": ^9.0.2
     "@semantic-release/git": ^10.0.1
