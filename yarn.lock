@@ -24,9 +24,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/cli@npm:^7.21.5":
-  version: 7.21.5
-  resolution: "@babel/cli@npm:7.21.5"
+"@babel/cli@npm:^7.22.5":
+  version: 7.22.5
+  resolution: "@babel/cli@npm:7.22.5"
   dependencies:
     "@jridgewell/trace-mapping": ^0.3.17
     "@nicolo-ribaudo/chokidar-2": 2.1.8-no-fsevents.3
@@ -47,7 +47,7 @@ __metadata:
   bin:
     babel: ./bin/babel.js
     babel-external-helpers: ./bin/babel-external-helpers.js
-  checksum: 5d2e48e63b37120e44e9fd0bd74c3c5561f3cfaff8aab844227194708142f9b8210f86a129041787c199db58f6911bea9999e8469b4f46874baaf4ecc1725f47
+  checksum: 8f436e72e15a77088c347ae189e33545d346d032dab54a10acb63dbf78c9ce5f180d7e9f7ed1fed1a3b005802700ae7c6c18727e57d805e14b412a059b3ba050
   languageName: node
   linkType: hard
 
@@ -11416,7 +11416,7 @@ resolve@^2.0.0-next.3:
   version: 0.0.0-use.local
   resolution: "sleep-promise@workspace:."
   dependencies:
-    "@babel/cli": ^7.21.5
+    "@babel/cli": ^7.22.5
     "@babel/core": ^7.22.5
     "@babel/plugin-transform-runtime": ^7.22.5
     "@babel/preset-env": ^7.22.5
