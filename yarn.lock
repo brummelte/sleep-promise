@@ -4332,7 +4332,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-jest@npm:^29.6.2, babel-jest@npm:^29.6.4":
+"babel-jest@npm:^29.6.3, babel-jest@npm:^29.6.4":
   version: 29.6.4
   resolution: "babel-jest@npm:29.6.4"
   dependencies:
@@ -8372,7 +8372,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"jest@npm:^29.6.2":
+"jest@npm:^29.6.3":
   version: 29.6.4
   resolution: "jest@npm:29.6.4"
   dependencies:
@@ -11624,11 +11624,11 @@ resolve@^2.0.0-next.3:
     "@semantic-release/github": ^8.1.0
     "@semantic-release/npm": ^10.0.5
     "@semantic-release/release-notes-generator": ^10.0.3
-    babel-jest: ^29.6.2
+    babel-jest: ^29.6.3
     copyfiles: ^2.4.1
     coveralls: ^3.1.1
     eslint: ^8.47.0
-    jest: ^29.6.2
+    jest: ^29.6.3
     jest-junit: ^15.0.0
     rimraf: ^4.4.1
     rollup: ^2.79.1
