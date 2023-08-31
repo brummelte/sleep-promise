@@ -33,7 +33,7 @@
   "homepage": "https://github.com/brummelte/sleep-promise",
   "devDependencies": {
     "@babel/cli": "^7.22.10",
-    "@babel/core": "^7.22.10",
+    "@babel/core": "^7.22.11",
     "@babel/plugin-transform-runtime": "^7.22.10",
     "@babel/preset-env": "^7.22.10",
     "@brummelte/eslint-config": "^9.2.29",
