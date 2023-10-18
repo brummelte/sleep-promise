@@ -34,8 +34,8 @@
   "devDependencies": {
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.0",
-    "@babel/plugin-transform-runtime": "^7.22.15",
-    "@babel/preset-env": "^7.22.20",
+    "@babel/plugin-transform-runtime": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
     "@brummelte/eslint-config": "^9.2.29",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^9.0.2",
