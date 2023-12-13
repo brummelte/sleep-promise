@@ -5299,20 +5299,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cosmiconfig@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "cosmiconfig@npm:9.0.0"
+"cosmiconfig@npm:^8.0.0":
+  version: 8.3.6
+  resolution: "cosmiconfig@npm:8.3.6"
   dependencies:
-    env-paths: ^2.2.1
     import-fresh: ^3.3.0
     js-yaml: ^4.1.0
     parse-json: ^5.2.0
+    path-type: ^4.0.0
   peerDependencies:
     typescript: ">=4.9.5"
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: a30c424b53d442ea0bdd24cb1b3d0d8687c8dda4a17ab6afcdc439f8964438801619cdb66e8e79f63b9caa3e6586b60d8bab9ce203e72df6c5e80179b971fe8f
+  checksum: dc339ebea427898c9e03bf01b56ba7afbac07fc7d2a2d5a15d6e9c14de98275a9565da949375aee1809591c152c0a3877bb86dbeaf74d5bd5aaa79955ad9e7a0
   languageName: node
   linkType: hard
 
@@ -5698,13 +5698,6 @@ __metadata:
   version: 2.2.0
   resolution: "env-paths@npm:2.2.0"
   checksum: ba2aea38301aafd69086be1f8cb453b92946e4840cb0de9d1c88a67e6f43a6174dcddb60b218ec36db8720b12de46b0d93c2f97ad9bbec6a267b479ab37debb6
-  languageName: node
-  linkType: hard
-
-"env-paths@npm:^2.2.1":
-  version: 2.2.1
-  resolution: "env-paths@npm:2.2.1"
-  checksum: 65b5df55a8bab92229ab2b40dad3b387fad24613263d103a97f91c9fe43ceb21965cd3392b1ccb5d77088021e525c4e0481adb309625d0cb94ade1d1fb8dc17e
   languageName: node
   linkType: hard
 
@@ -11123,9 +11116,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:^22.0.9":
-  version: 22.0.11
-  resolution: "semantic-release@npm:22.0.11"
+"semantic-release@npm:^22.0.10":
+  version: 22.0.12
+  resolution: "semantic-release@npm:22.0.12"
   dependencies:
     "@semantic-release/commit-analyzer": ^11.0.0
     "@semantic-release/error": ^4.0.0
@@ -11133,7 +11126,7 @@ resolve@^2.0.0-next.3:
     "@semantic-release/npm": ^11.0.0
     "@semantic-release/release-notes-generator": ^12.0.0
     aggregate-error: ^5.0.0
-    cosmiconfig: ^9.0.0
+    cosmiconfig: ^8.0.0
     debug: ^4.0.0
     env-ci: ^10.0.0
     execa: ^8.0.0
@@ -11158,7 +11151,7 @@ resolve@^2.0.0-next.3:
     yargs: ^17.5.1
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 1d0fc77984de0359c1527a240b5f1d77d59e46daf93f07090e25829ed7a1c65b758c4bc15a535c077165a59f560ba5964a6671fd9078966c0dc6017bd21553a2
+  checksum: 54aa79893dc0df9fef071608138c295be3e154b44f2561b232ec7fec51e65e3723b6cb28009ee17ad58f1d8d0338babbf3b7780a80fa8193dab77f1a0404a5eb
   languageName: node
   linkType: hard
 
@@ -11404,7 +11397,7 @@ resolve@^2.0.0-next.3:
     rollup-plugin-babel: ^4.4.0
     rollup-plugin-node-resolve: ^5.2.0
     rollup-plugin-terser: ^7.0.2
-    semantic-release: ^22.0.9
+    semantic-release: ^22.0.10
     typescript: ^5.3.2
   languageName: unknown
   linkType: soft
