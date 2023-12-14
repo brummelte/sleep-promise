@@ -3592,9 +3592,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:^9.2.4":
-  version: 9.2.4
-  resolution: "@semantic-release/github@npm:9.2.4"
+"@semantic-release/github@npm:^9.2.5":
+  version: 9.2.5
+  resolution: "@semantic-release/github@npm:9.2.5"
   dependencies:
     "@octokit/core": ^5.0.0
     "@octokit/plugin-paginate-rest": ^9.0.0
@@ -3614,11 +3614,11 @@ __metadata:
     url-join: ^5.0.0
   peerDependencies:
     semantic-release: ">=20.1.0"
-  checksum: 8fa0e26f68ca613d56aeed407e090c930357ed6a5fca360eb1aa15b7b55426003473a7994f4eea8c528be91642338c0a533308c9716701bedf2507ae8429c567
+  checksum: e999c83e62654b6d686aa50d26f2aecb27829bc948884b7365a2792e78ee16744b0b72dd8e0e3d9df36351801648ad4d5131fe9d12464a7593dfc377d7f623cf
   languageName: node
   linkType: hard
 
-"@semantic-release/npm@npm:^11.0.0, @semantic-release/npm@npm:^11.0.1":
+"@semantic-release/npm@npm:^11.0.0":
   version: 11.0.1
   resolution: "@semantic-release/npm@npm:11.0.1"
   dependencies:
@@ -3638,6 +3638,29 @@ __metadata:
   peerDependencies:
     semantic-release: ">=20.1.0"
   checksum: 96ba0398bc48c024ff980167285cbcf3df1fb76698b40e609465ac705ab1fb65797f9fa72c081c8f8fbbe83cebe2e21502d325795d0e83c3908d8b01fb264f7e
+  languageName: node
+  linkType: hard
+
+"@semantic-release/npm@npm:^11.0.2":
+  version: 11.0.2
+  resolution: "@semantic-release/npm@npm:11.0.2"
+  dependencies:
+    "@semantic-release/error": ^4.0.0
+    aggregate-error: ^5.0.0
+    execa: ^8.0.0
+    fs-extra: ^11.0.0
+    lodash-es: ^4.17.21
+    nerf-dart: ^1.0.0
+    normalize-url: ^8.0.0
+    npm: ^10.0.0
+    rc: ^1.2.8
+    read-pkg: ^9.0.0
+    registry-auth-token: ^5.0.0
+    semver: ^7.1.2
+    tempy: ^3.0.0
+  peerDependencies:
+    semantic-release: ">=20.1.0"
+  checksum: 88a27ad6756d78041793ff3d5729a15211b5cfdd336248ec332518936f7cccf9b5518d246e992a34281a3fa8176c8113ee95e986b5b8e71ae49d21b17dde7f4c
   languageName: node
   linkType: hard
 
@@ -11383,8 +11406,8 @@ resolve@^2.0.0-next.3:
     "@semantic-release/changelog": ^6.0.3
     "@semantic-release/commit-analyzer": ^11.1.0
     "@semantic-release/git": ^10.0.1
-    "@semantic-release/github": ^9.2.4
-    "@semantic-release/npm": ^11.0.1
+    "@semantic-release/github": ^9.2.5
+    "@semantic-release/npm": ^11.0.2
     "@semantic-release/release-notes-generator": ^12.1.0
     babel-jest: ^29.7.0
     copyfiles: ^2.4.1
