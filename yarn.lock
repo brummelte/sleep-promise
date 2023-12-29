@@ -3606,9 +3606,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:^9.2.5":
-  version: 9.2.5
-  resolution: "@semantic-release/github@npm:9.2.5"
+"@semantic-release/github@npm:^9.2.6":
+  version: 9.2.6
+  resolution: "@semantic-release/github@npm:9.2.6"
   dependencies:
     "@octokit/core": ^5.0.0
     "@octokit/plugin-paginate-rest": ^9.0.0
@@ -3624,11 +3624,11 @@ __metadata:
     issue-parser: ^6.0.0
     lodash-es: ^4.17.21
     mime: ^4.0.0
-    p-filter: ^3.0.0
+    p-filter: ^4.0.0
     url-join: ^5.0.0
   peerDependencies:
     semantic-release: ">=20.1.0"
-  checksum: e999c83e62654b6d686aa50d26f2aecb27829bc948884b7365a2792e78ee16744b0b72dd8e0e3d9df36351801648ad4d5131fe9d12464a7593dfc377d7f623cf
+  checksum: 69e52b02d646bd5ad4e50046cac77f199e0687024368cde3c049e1dc7db488e1ec31779db990a84d7a14ea80ea116e938d86d11b7ac92aba3c41651f4a6b4313
   languageName: node
   linkType: hard
 
@@ -10067,6 +10067,15 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"p-filter@npm:^4.0.0":
+  version: 4.1.0
+  resolution: "p-filter@npm:4.1.0"
+  dependencies:
+    p-map: ^7.0.1
+  checksum: a8c783f6f783d2cf2b1b23f128576abee9545942961d1a242d0bb673eaf5390e51acd887d526e468d23fb08546ba7c958222464e75a25ac502f2951aeffcbb72
+  languageName: node
+  linkType: hard
+
 "p-is-promise@npm:^3.0.0":
   version: 3.0.0
   resolution: "p-is-promise@npm:3.0.0"
@@ -10143,6 +10152,13 @@ fsevents@~2.1.2:
   dependencies:
     aggregate-error: ^4.0.0
   checksum: 065cb6fca6b78afbd070dd9224ff160dc23eea96e57863c09a0c8ea7ce921043f76854be7ee0abc295cff1ac9adcf700e79a1fbe3b80b625081087be58e7effb
+  languageName: node
+  linkType: hard
+
+"p-map@npm:^7.0.1":
+  version: 7.0.1
+  resolution: "p-map@npm:7.0.1"
+  checksum: 553c218f582b9c7f96159dd55d082fc6df386ea86a78a3798b768f87f761d6f01ea52dd76225e69199720fa0684901d38353cd0978a39ef4f7f4fd287c4e9262
   languageName: node
   linkType: hard
 
@@ -11455,7 +11471,7 @@ resolve@^2.0.0-next.3:
     "@semantic-release/changelog": ^6.0.3
     "@semantic-release/commit-analyzer": ^11.1.0
     "@semantic-release/git": ^10.0.1
-    "@semantic-release/github": ^9.2.5
+    "@semantic-release/github": ^9.2.6
     "@semantic-release/npm": ^11.0.2
     "@semantic-release/release-notes-generator": ^12.1.0
     babel-jest: ^29.7.0
