@@ -31,11 +31,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/cli@npm:^7.23.9":
-  version: 7.23.9
-  resolution: "@babel/cli@npm:7.23.9"
+"@babel/cli@npm:^7.24.1":
+  version: 7.24.1
+  resolution: "@babel/cli@npm:7.24.1"
   dependencies:
-    "@jridgewell/trace-mapping": ^0.3.17
+    "@jridgewell/trace-mapping": ^0.3.25
     "@nicolo-ribaudo/chokidar-2": 2.1.8-no-fsevents.3
     chokidar: ^3.4.0
     commander: ^4.0.1
@@ -54,7 +54,7 @@ __metadata:
   bin:
     babel: ./bin/babel.js
     babel-external-helpers: ./bin/babel-external-helpers.js
-  checksum: 2952312b73f9a0a2566e556f821ca04502aa747118530af5186a1943f338aec5d6abbe4e14b3916d27428b77c5ebc223e83a9c6cea8868342c51368613acb51c
+  checksum: 334b6130fd06562ef91d94f14ca9b8635221c59c0887196e90c3f88fb71fa9bd93ea3ac76843c7352d35b1d0f943b6052f15b5a156a5222f04ec227e3f581fea
   languageName: node
   linkType: hard
 
@@ -2913,16 +2913,6 @@ __metadata:
     "@jridgewell/resolve-uri": ^3.0.3
     "@jridgewell/sourcemap-codec": ^1.4.10
   checksum: b9537b9630ffb631aef9651a085fe361881cde1772cd482c257fe3c78c8fd5388d681f504a9c9fe1081b1c05e8f75edf55ee10fdb58d92bbaa8dbf6a7bd6b18c
-  languageName: node
-  linkType: hard
-
-"@jridgewell/trace-mapping@npm:^0.3.17":
-  version: 0.3.17
-  resolution: "@jridgewell/trace-mapping@npm:0.3.17"
-  dependencies:
-    "@jridgewell/resolve-uri": 3.1.0
-    "@jridgewell/sourcemap-codec": 1.4.14
-  checksum: 9d703b859cff5cd83b7308fd457a431387db5db96bd781a63bf48e183418dd9d3d44e76b9e4ae13237f6abeeb25d739ec9215c1d5bfdd08f66f750a50074a339
   languageName: node
   linkType: hard
 
@@ -11717,7 +11707,7 @@ resolve@^2.0.0-next.3:
   version: 0.0.0-use.local
   resolution: "sleep-promise@workspace:."
   dependencies:
-    "@babel/cli": ^7.23.9
+    "@babel/cli": ^7.24.1
     "@babel/core": ^7.24.1
     "@babel/plugin-transform-runtime": ^7.24.1
     "@babel/preset-env": ^7.24.1
