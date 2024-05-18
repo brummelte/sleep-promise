@@ -11380,9 +11380,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:^23.0.8":
-  version: 23.0.8
-  resolution: "semantic-release@npm:23.0.8"
+"semantic-release@npm:^23.1.1":
+  version: 23.1.1
+  resolution: "semantic-release@npm:23.1.1"
   dependencies:
     "@semantic-release/commit-analyzer": ^12.0.0
     "@semantic-release/error": ^4.0.0
@@ -11393,7 +11393,7 @@ resolve@^2.0.0-next.3:
     cosmiconfig: ^9.0.0
     debug: ^4.0.0
     env-ci: ^11.0.0
-    execa: ^8.0.0
+    execa: ^9.0.0
     figures: ^6.0.0
     find-versions: ^6.0.0
     get-stream: ^6.0.0
@@ -11415,7 +11415,7 @@ resolve@^2.0.0-next.3:
     yargs: ^17.5.1
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: b3207a08d4d5d6c63240fbcd9386d24a985a985b28ea3ca52833b55564e1df560489c650bc2cdab3c06dbbe2f22e75224c60f3c3182520eaed37117a9ff9391c
+  checksum: 68e74ad5b5c930cb23e36d1b88ce17b103e6f2cecd1c4b87afe1a3ac02ef77b223ea1599416eb1ee3d5d95b2e07e95cc196b6c79888cae0df0d48421d70d6cb9
   languageName: node
   linkType: hard
 
@@ -11679,7 +11679,7 @@ resolve@^2.0.0-next.3:
     rollup-plugin-babel: ^4.4.0
     rollup-plugin-node-resolve: ^5.2.0
     rollup-plugin-terser: ^7.0.2
-    semantic-release: ^23.0.8
+    semantic-release: ^23.1.1
     typescript: ^5.4.5
   languageName: unknown
   linkType: soft
