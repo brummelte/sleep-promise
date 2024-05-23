@@ -3618,7 +3618,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:^10.0.0, @semantic-release/github@npm:^10.0.3":
+"@semantic-release/github@npm:^10.0.0":
   version: 10.0.3
   resolution: "@semantic-release/github@npm:10.0.3"
   dependencies:
@@ -3641,6 +3641,32 @@ __metadata:
   peerDependencies:
     semantic-release: ">=20.1.0"
   checksum: 177ea0b978c3abff02689e409133ed952396f04829d4535a0634856d0a951bf74de1f0adf1151197d9022f97812c0f89166538b6754c623f5b04a2df3fb64f47
+  languageName: node
+  linkType: hard
+
+"@semantic-release/github@npm:^10.0.4":
+  version: 10.0.5
+  resolution: "@semantic-release/github@npm:10.0.5"
+  dependencies:
+    "@octokit/core": ^6.0.0
+    "@octokit/plugin-paginate-rest": ^11.0.0
+    "@octokit/plugin-retry": ^7.0.0
+    "@octokit/plugin-throttling": ^9.0.0
+    "@semantic-release/error": ^4.0.0
+    aggregate-error: ^5.0.0
+    debug: ^4.3.4
+    dir-glob: ^3.0.1
+    globby: ^14.0.0
+    http-proxy-agent: ^7.0.0
+    https-proxy-agent: ^7.0.0
+    issue-parser: ^7.0.0
+    lodash-es: ^4.17.21
+    mime: ^4.0.0
+    p-filter: ^4.0.0
+    url-join: ^5.0.0
+  peerDependencies:
+    semantic-release: ">=20.1.0"
+  checksum: b05425aa30a4483bed9ead03569647a0c8c19cbd73a6cbb84ee50b0872fd0d48d6d126030454129aa13c4afa0cbb4bb39a49d09f4694918f727997c8fad3fc0f
   languageName: node
   linkType: hard
 
@@ -11665,7 +11691,7 @@ resolve@^2.0.0-next.3:
     "@semantic-release/changelog": ^6.0.3
     "@semantic-release/commit-analyzer": ^12.0.0
     "@semantic-release/git": ^10.0.1
-    "@semantic-release/github": ^10.0.3
+    "@semantic-release/github": ^10.0.4
     "@semantic-release/npm": ^12.0.1
     "@semantic-release/release-notes-generator": ^13.0.0
     babel-jest: ^29.7.0
