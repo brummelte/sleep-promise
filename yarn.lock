@@ -3324,9 +3324,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:^10.0.5":
-  version: 10.0.5
-  resolution: "@semantic-release/github@npm:10.0.5"
+"@semantic-release/github@npm:^10.0.6":
+  version: 10.0.6
+  resolution: "@semantic-release/github@npm:10.0.6"
   dependencies:
     "@octokit/core": ^6.0.0
     "@octokit/plugin-paginate-rest": ^11.0.0
@@ -3346,7 +3346,7 @@ __metadata:
     url-join: ^5.0.0
   peerDependencies:
     semantic-release: ">=20.1.0"
-  checksum: b05425aa30a4483bed9ead03569647a0c8c19cbd73a6cbb84ee50b0872fd0d48d6d126030454129aa13c4afa0cbb4bb39a49d09f4694918f727997c8fad3fc0f
+  checksum: 06c1826af9f6f5db9d7bc6738ef4b01d8ac2e0e95d6dfe4983ab7951df1b58757451d574cc458852045e45b7c7a672726d3e9dbeedd86e85b5d813f85fc6ff23
   languageName: node
   linkType: hard
 
@@ -11371,7 +11371,7 @@ resolve@^2.0.0-next.3:
     "@semantic-release/changelog": ^6.0.3
     "@semantic-release/commit-analyzer": ^12.0.0
     "@semantic-release/git": ^10.0.1
-    "@semantic-release/github": ^10.0.5
+    "@semantic-release/github": ^10.0.6
     "@semantic-release/npm": ^12.0.1
     "@semantic-release/release-notes-generator": ^13.0.0
     babel-jest: ^29.7.0
