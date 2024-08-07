@@ -2097,7 +2097,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:^7.25.2":
+"@babel/preset-env@npm:^7.25.3":
   version: 7.25.3
   resolution: "@babel/preset-env@npm:7.25.3"
   dependencies:
@@ -11712,7 +11712,7 @@ resolve@^2.0.0-next.3:
     "@babel/cli": ^7.24.8
     "@babel/core": ^7.25.2
     "@babel/plugin-transform-runtime": ^7.24.7
-    "@babel/preset-env": ^7.25.2
+    "@babel/preset-env": ^7.25.3
     "@brummelte/eslint-config": ^9.2.29
     "@semantic-release/changelog": ^6.0.3
     "@semantic-release/commit-analyzer": ^12.0.0
