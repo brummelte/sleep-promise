@@ -2040,19 +2040,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-runtime@npm:^7.24.7":
-  version: 7.24.7
-  resolution: "@babel/plugin-transform-runtime@npm:7.24.7"
+"@babel/plugin-transform-runtime@npm:^7.25.4":
+  version: 7.25.4
+  resolution: "@babel/plugin-transform-runtime@npm:7.25.4"
   dependencies:
     "@babel/helper-module-imports": ^7.24.7
-    "@babel/helper-plugin-utils": ^7.24.7
+    "@babel/helper-plugin-utils": ^7.24.8
     babel-plugin-polyfill-corejs2: ^0.4.10
-    babel-plugin-polyfill-corejs3: ^0.10.1
+    babel-plugin-polyfill-corejs3: ^0.10.6
     babel-plugin-polyfill-regenerator: ^0.6.1
     semver: ^6.3.1
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: 98bcbbdc833d5c451189a6325f88820fe92973e119c59ce74bf28681cf4687c8280decb55b6c47f22e98c3973ae3a13521c4f51855a2b8577b230ecb1b4ca5b4
+  checksum: 40ea3519840c1b2062fc53dd0e4ce2b37cd43995bfc8bbb741f1985622138fbfd873307217692d7bf3ab0629faf0ce277e302e8446673fddaf470d3e07dd0fb2
   languageName: node
   linkType: hard
 
@@ -4731,18 +4731,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-polyfill-corejs3@npm:^0.10.1":
-  version: 0.10.4
-  resolution: "babel-plugin-polyfill-corejs3@npm:0.10.4"
-  dependencies:
-    "@babel/helper-define-polyfill-provider": ^0.6.1
-    core-js-compat: ^3.36.1
-  peerDependencies:
-    "@babel/core": ^7.4.0 || ^8.0.0-0 <8.0.0
-  checksum: b96a54495f7cc8b3797251c8c15f5ed015edddc3110fc122f6b32c94bec33af1e8bc56fa99091808f500bde0cccaaa266889cdc5935d9e6e9cf09898214f02dd
-  languageName: node
-  linkType: hard
-
 "babel-plugin-polyfill-corejs3@npm:^0.10.6":
   version: 0.10.6
   resolution: "babel-plugin-polyfill-corejs3@npm:0.10.6"
@@ -5561,15 +5549,6 @@ __metadata:
     copyfiles: copyfiles
     copyup: copyfiles
   checksum: aea69873bb99cc5f553967660cbfb70e4eeda198f572a36fb0f748b36877ff2c90fd906c58b1d540adbad8afa8ee82820172f1c18e69736f7ab52792c12745a7
-  languageName: node
-  linkType: hard
-
-"core-js-compat@npm:^3.36.1":
-  version: 3.36.1
-  resolution: "core-js-compat@npm:3.36.1"
-  dependencies:
-    browserslist: ^4.23.0
-  checksum: c9109bd599a97b5d20f25fc8b8339b8c7f3fca5f9a1bebd397805383ff7699e117786c7ffe0f7a95058a6fa5e0e1435d4c10e5cda6ad86ce1957986bb6580562
   languageName: node
   linkType: hard
 
@@ -11855,7 +11834,7 @@ resolve@^2.0.0-next.3:
   dependencies:
     "@babel/cli": ^7.24.8
     "@babel/core": ^7.25.2
-    "@babel/plugin-transform-runtime": ^7.24.7
+    "@babel/plugin-transform-runtime": ^7.25.4
     "@babel/preset-env": ^7.25.4
     "@brummelte/eslint-config": ^9.2.29
     "@semantic-release/changelog": ^6.0.3
