@@ -180,7 +180,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.25.9":
+"@babel/core@npm:^7.26.0":
   version: 7.26.0
   resolution: "@babel/core@npm:7.26.0"
   dependencies:
@@ -1775,7 +1775,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:^7.25.9":
+"@babel/preset-env@npm:^7.26.0":
   version: 7.26.0
   resolution: "@babel/preset-env@npm:7.26.0"
   dependencies:
@@ -11267,9 +11267,9 @@ resolve@^2.0.0-next.3:
   resolution: "sleep-promise@workspace:."
   dependencies:
     "@babel/cli": ^7.25.9
-    "@babel/core": ^7.25.9
+    "@babel/core": ^7.26.0
     "@babel/plugin-transform-runtime": ^7.25.9
-    "@babel/preset-env": ^7.25.9
+    "@babel/preset-env": ^7.26.0
     "@brummelte/eslint-config": ^9.2.29
     "@semantic-release/changelog": ^6.0.3
     "@semantic-release/commit-analyzer": ^12.0.0
