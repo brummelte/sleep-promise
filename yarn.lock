@@ -2955,6 +2955,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@octokit/auth-token@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "@octokit/auth-token@npm:6.0.0"
+  checksum: 9c23be526c7f8e282aa7ccec6f3a72a1beec44eae736327e9ba78419fa28ba75e2c686e9eac75f35ce99bdb55eff9605f7ef7588a9d4f4e18ad5ed16a5d887ab
+  languageName: node
+  linkType: hard
+
 "@octokit/core@npm:^6.0.0":
   version: 6.1.2
   resolution: "@octokit/core@npm:6.1.2"
@@ -2970,6 +2977,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@octokit/core@npm:^7.0.0":
+  version: 7.0.2
+  resolution: "@octokit/core@npm:7.0.2"
+  dependencies:
+    "@octokit/auth-token": ^6.0.0
+    "@octokit/graphql": ^9.0.1
+    "@octokit/request": ^10.0.2
+    "@octokit/request-error": ^7.0.0
+    "@octokit/types": ^14.0.0
+    before-after-hook: ^4.0.0
+    universal-user-agent: ^7.0.0
+  checksum: 569e65c7fc23518c5e058aad280b669f33a82fa9f4c26afa4481ed0488147ec779907b3cd0a333eda850b0127ab46dc0caeeb27fb72eca0ed60db23c30d75bf0
+  languageName: node
+  linkType: hard
+
 "@octokit/endpoint@npm:^10.0.0":
   version: 10.1.0
   resolution: "@octokit/endpoint@npm:10.1.0"
@@ -2977,6 +2999,16 @@ __metadata:
     "@octokit/types": ^13.0.0
     universal-user-agent: ^7.0.2
   checksum: db5b949014acc8a064343a9c765207e55f393379f68e53abdab24523d2e533320a860d9a11300cd8cea86bdf7f4f909c43b6c04534cea5593ee19165669cbd28
+  languageName: node
+  linkType: hard
+
+"@octokit/endpoint@npm:^11.0.0":
+  version: 11.0.0
+  resolution: "@octokit/endpoint@npm:11.0.0"
+  dependencies:
+    "@octokit/types": ^14.0.0
+    universal-user-agent: ^7.0.2
+  checksum: 1c4bd71b3041bf935535c13e9636cb9846469655050583e0ad2595f2f1f840eba2a3f5f43a0dbc82fd695ad0124ab4fc389a2ef3d0770d642fed717e31e4300f
   languageName: node
   linkType: hard
 
@@ -2988,6 +3020,17 @@ __metadata:
     "@octokit/types": ^13.0.0
     universal-user-agent: ^7.0.0
   checksum: ee711c66f5259f8073ef39a68a3822bea161b4322b64088069b219aa505e1c48da31db71643ccfa8d713f035b21f3daa4cf31ac33af9343661cf20aeec20d284
+  languageName: node
+  linkType: hard
+
+"@octokit/graphql@npm:^9.0.1":
+  version: 9.0.1
+  resolution: "@octokit/graphql@npm:9.0.1"
+  dependencies:
+    "@octokit/request": ^10.0.2
+    "@octokit/types": ^14.0.0
+    universal-user-agent: ^7.0.0
+  checksum: 3d59773cf56333be8668f7708c473f5746ad49552c0e542ae32c0442e0f16c4b6389408c8868f211b45d0292f1ebfdc92160ee6c2cbf12c5fa0d9a938713bcf9
   languageName: node
   linkType: hard
 
@@ -3005,6 +3048,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@octokit/openapi-types@npm:^25.1.0":
+  version: 25.1.0
+  resolution: "@octokit/openapi-types@npm:25.1.0"
+  checksum: 441b17f801254629b3ddb4b878c589fee1fd23015253c8b72a3acb3eeedbe981691bb311649ab5f955005c5d7adb940f19e18eaf0c875752fe0cc12b3dc1d24b
+  languageName: node
+  linkType: hard
+
 "@octokit/plugin-paginate-rest@npm:^11.0.0":
   version: 11.1.0
   resolution: "@octokit/plugin-paginate-rest@npm:11.1.0"
@@ -3016,14 +3066,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/plugin-paginate-rest@npm:^12.0.0":
-  version: 12.0.0
-  resolution: "@octokit/plugin-paginate-rest@npm:12.0.0"
+"@octokit/plugin-paginate-rest@npm:^13.0.0":
+  version: 13.0.1
+  resolution: "@octokit/plugin-paginate-rest@npm:13.0.1"
   dependencies:
-    "@octokit/types": ^14.0.0
+    "@octokit/types": ^14.1.0
   peerDependencies:
     "@octokit/core": ">=6"
-  checksum: a7eb9b1ca6485765043d9009902c02611073d5ac39147fc1f7b4e927d298fb34b0a17c329fab741402db1e0ea9ee223c8b055611a680e065bebf7c87505b113f
+  checksum: 4b74c601346a055d1ebf007137bc9e47f0a4276b0767fb7d833e81b3ffda5901b4f0e1bac0d059e733b2caddaeb7df0cae36b98d9085d1690aa81dcd5bb9994a
   languageName: node
   linkType: hard
 
@@ -3040,15 +3090,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/plugin-throttling@npm:^10.0.0":
-  version: 10.0.0
-  resolution: "@octokit/plugin-throttling@npm:10.0.0"
+"@octokit/plugin-retry@npm:^8.0.0":
+  version: 8.0.1
+  resolution: "@octokit/plugin-retry@npm:8.0.1"
+  dependencies:
+    "@octokit/request-error": ^7.0.0
+    "@octokit/types": ^14.0.0
+    bottleneck: ^2.15.3
+  peerDependencies:
+    "@octokit/core": ">=7"
+  checksum: 6d1dc645d6b32efff892e072ce869306627d1c8443b37e8534dbefdbaa8f498bd316ae23ed1ebb64fee84046150c034d11ed77d9e9c47d34271c3ced4df37d89
+  languageName: node
+  linkType: hard
+
+"@octokit/plugin-throttling@npm:^11.0.0":
+  version: 11.0.1
+  resolution: "@octokit/plugin-throttling@npm:11.0.1"
   dependencies:
     "@octokit/types": ^14.0.0
     bottleneck: ^2.15.3
   peerDependencies:
-    "@octokit/core": ^6.1.3
-  checksum: abc587a393b850fc1329180c00f901679b07ecd10b35c6c0371630642d76f533483c896f7fe62d662443d460db64a1512902106f07505e973414911cf6b6603c
+    "@octokit/core": ^7.0.0
+  checksum: a524ec9683780d85ef580c3e6074d65a4c5497ea5f7acc1fcb5eb5aeb110c57db544c97c904e4a57b8367499065f1cb00ba6d5dd74e5415e953229490be34cf0
   languageName: node
   linkType: hard
 
@@ -3070,6 +3133,28 @@ __metadata:
   dependencies:
     "@octokit/types": ^13.0.0
   checksum: dc481d1f2c29afac21e60dd0c5b7a6ce21ceefa43768dd371aaa20f75923424aba0981ed804d3d45ccef392f4d8b15a9506cfc80476cdd044922536c9170e84c
+  languageName: node
+  linkType: hard
+
+"@octokit/request-error@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "@octokit/request-error@npm:7.0.0"
+  dependencies:
+    "@octokit/types": ^14.0.0
+  checksum: c4370d2c31f599c1f366c480d5a02bc93442e5a0e151ec5caf0d5a5b0f0f91b50ecedc945aa6ea61b4c9ed1e89153dc7727daf4317680d33e916f829da7d141b
+  languageName: node
+  linkType: hard
+
+"@octokit/request@npm:^10.0.2":
+  version: 10.0.2
+  resolution: "@octokit/request@npm:10.0.2"
+  dependencies:
+    "@octokit/endpoint": ^11.0.0
+    "@octokit/request-error": ^7.0.0
+    "@octokit/types": ^14.0.0
+    fast-content-type-parse: ^3.0.0
+    universal-user-agent: ^7.0.2
+  checksum: 66e56fbf8d3df538c68881eab393e4ebca418204c6f452d39f95d050ec6151169efd1dac3cea9def3f1ebfc8ddc7fad7721f39d2f793f60d52d63cd386b11a90
   languageName: node
   linkType: hard
 
@@ -3100,6 +3185,15 @@ __metadata:
   dependencies:
     "@octokit/openapi-types": ^25.0.0
   checksum: 2c63dd529449b1dec8ff0dc4a6c9839032edc3c38cc8d76e368d124e67496e26dfe75fb106409aebd5120924266a12f8be2c05c8baa165a772523075a6dfdb93
+  languageName: node
+  linkType: hard
+
+"@octokit/types@npm:^14.1.0":
+  version: 14.1.0
+  resolution: "@octokit/types@npm:14.1.0"
+  dependencies:
+    "@octokit/openapi-types": ^25.1.0
+  checksum: 0513520e26dc5395c3b3b407568151d32be1f51bedb151f5b294cadc72dc3fe2d0dbbccad96f01dc80d26247b4aed3358de0ce31ad3c013eb22b96e6234feeb5
   languageName: node
   linkType: hard
 
@@ -3233,14 +3327,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:^11.0.2":
-  version: 11.0.2
-  resolution: "@semantic-release/github@npm:11.0.2"
+"@semantic-release/github@npm:^11.0.3":
+  version: 11.0.3
+  resolution: "@semantic-release/github@npm:11.0.3"
   dependencies:
-    "@octokit/core": ^6.0.0
-    "@octokit/plugin-paginate-rest": ^12.0.0
-    "@octokit/plugin-retry": ^7.0.0
-    "@octokit/plugin-throttling": ^10.0.0
+    "@octokit/core": ^7.0.0
+    "@octokit/plugin-paginate-rest": ^13.0.0
+    "@octokit/plugin-retry": ^8.0.0
+    "@octokit/plugin-throttling": ^11.0.0
     "@semantic-release/error": ^4.0.0
     aggregate-error: ^5.0.0
     debug: ^4.3.4
@@ -3255,7 +3349,7 @@ __metadata:
     url-join: ^5.0.0
   peerDependencies:
     semantic-release: ">=24.1.0"
-  checksum: cc291e70ce8b0e6aba963ed9a482fbec11b759ecd975a9e6726bca1fa2ab1c7810acf05e7273a62ff0739dd50e18facdaaadc4df73454807299058ed1d46b366
+  checksum: 8bc2f0baee74674d5753272f21f4f6f5c9d69196c0ad07b64709f16e6b267f44a0514ef6007191cd5b01675f8e67110be1f2239ecc458e37d6573c73998cbf6d
   languageName: node
   linkType: hard
 
@@ -4337,6 +4431,13 @@ __metadata:
   version: 3.0.2
   resolution: "before-after-hook@npm:3.0.2"
   checksum: 5f76a9d31909f7f1f7125b7e017ff018799308f5c1fc5a5bfeba9986149da77e6a5cdde0d151671cf374a7fa6452533237bb1de62dfd6c235c20e7c61cc9569d
+  languageName: node
+  linkType: hard
+
+"before-after-hook@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "before-after-hook@npm:4.0.0"
+  checksum: a8cbd4d3c48f42f44307ef5966be152b836d2e5908834f2f885ddf104c2e2ba66dbb5e6ef89a37e77371b1d22d5c75b74df1472286c684a037c1a6db43f5617b
   languageName: node
   linkType: hard
 
@@ -6230,6 +6331,13 @@ __metadata:
   version: 1.3.0
   resolution: "extsprintf@npm:1.3.0"
   checksum: cee7a4a1e34cffeeec18559109de92c27517e5641991ec6bab849aa64e3081022903dd53084f2080d0d2530803aa5ee84f1e9de642c365452f9e67be8f958ce2
+  languageName: node
+  linkType: hard
+
+"fast-content-type-parse@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "fast-content-type-parse@npm:3.0.0"
+  checksum: 490199423215b8a9c6e24a5a01a0d072af8ebfe24c13deac0a393dcac36b732295dd8cec5a2c4241249ed0fffc6983ba138f3001b13286afefb66360b6715a46
   languageName: node
   linkType: hard
 
@@ -11377,7 +11485,7 @@ resolve@^2.0.0-next.3:
     "@semantic-release/changelog": ^6.0.3
     "@semantic-release/commit-analyzer": ^13.0.1
     "@semantic-release/git": ^10.0.1
-    "@semantic-release/github": ^11.0.2
+    "@semantic-release/github": ^11.0.3
     "@semantic-release/npm": ^12.0.1
     "@semantic-release/release-notes-generator": ^14.0.3
     babel-jest: ^29.7.0
