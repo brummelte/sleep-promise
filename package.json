@@ -36,7 +36,7 @@
     "@babel/core": "^7.27.4",
     "@babel/plugin-transform-runtime": "^7.27.4",
     "@babel/preset-env": "^7.27.2",
-    "@brummelte/eslint-config": "^9.2.29",
+    "@brummelte/eslint-config": "^10.1.74",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^13.0.1",
     "@semantic-release/git": "^10.0.1",
