@@ -3534,7 +3534,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/release-notes-generator@npm:^14.0.0-beta.1, @semantic-release/release-notes-generator@npm:^14.0.3":
+"@semantic-release/release-notes-generator@npm:^14.0.0-beta.1":
   version: 14.0.3
   resolution: "@semantic-release/release-notes-generator@npm:14.0.3"
   dependencies:
@@ -3551,6 +3551,26 @@ __metadata:
   peerDependencies:
     semantic-release: ">=20.1.0"
   checksum: bb9b0913e17a449e2a495aeed12ee4d5d116c0876a2420f8c3308d4f89b279c64f78f79f3b7e9812f84f27dd4abba1009bb0d3418ab559ddb1665a0b211d63d7
+  languageName: node
+  linkType: hard
+
+"@semantic-release/release-notes-generator@npm:^14.1.0":
+  version: 14.1.0
+  resolution: "@semantic-release/release-notes-generator@npm:14.1.0"
+  dependencies:
+    conventional-changelog-angular: ^8.0.0
+    conventional-changelog-writer: ^8.0.0
+    conventional-commits-filter: ^5.0.0
+    conventional-commits-parser: ^6.0.0
+    debug: ^4.0.0
+    get-stream: ^7.0.0
+    import-from-esm: ^2.0.0
+    into-stream: ^7.0.0
+    lodash-es: ^4.17.21
+    read-package-up: ^11.0.0
+  peerDependencies:
+    semantic-release: ">=20.1.0"
+  checksum: 3abc52cd45e5822af28ff7b4ef68730ff82e5d6177de52de3197df899395489a49bddc3fe2823cd9ec95060a2c943940e8d19e81269a6b94c9b9253d7bce9fa3
   languageName: node
   linkType: hard
 
@@ -11410,7 +11430,7 @@ resolve@^2.0.0-next.3:
     "@semantic-release/git": ^10.0.1
     "@semantic-release/github": ^11.0.6
     "@semantic-release/npm": ^12.0.2
-    "@semantic-release/release-notes-generator": ^14.0.3
+    "@semantic-release/release-notes-generator": ^14.1.0
     babel-jest: ^29.7.0
     copyfiles: ^2.4.1
     coveralls: ^3.1.1
